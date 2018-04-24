@@ -1,0 +1,740 @@
+package com.ibm.mics.sql.userService;
+
+import java.net.MalformedURLException;
+import java.security.MessageDigest;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import javax.xml.soap.Detail;
+
+import org.apache.catalina.Contained;
+import org.apache.log4j.Logger;
+import org.mockito.internal.stubbing.answers.ReturnsElementsOf;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.annotation.PropertySources;
+import org.springframework.remoting.rmi.RmiBasedExporter;
+import org.springframework.security.config.annotation.web.configurers.LogoutConfigurer;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+
+import com.ibm.mics.entity.util.*;
+import com.ibm.mics.json.entity.base.JacksonUtil;
+import com.ibm.mics.json.entity.base.Json_fabric;
+import com.ibm.mics.sql.mapper.*;
+import com.jcraft.jsch.Session;
+
+import cn.mics.brank.Router.Router;
+import io.fabric8.kubernetes.api.model.NamedExtensionFluent.ScaleExtensionNested;
+import net.sf.json.JSONObject;
+
+@Controller
+@RequestMapping("/*")
+@PropertySources({ @PropertySource(value = "classpath:micsApplication.properties", ignoreResourceNotFound = true) })
+public class UserServices {
+	@Autowired
+	private UserMapper usermapper;
+	@Autowired
+	private OrderMapper ordermapper;
+	@Autowired
+	private OrderContractMapper ordercontractmapper;
+	@Autowired
+	private MadicalCareMapper madicalcaremapper;
+	@Autowired
+	private ContractMapper contractmapper;
+	@Autowired
+	private ClaimMapper claimmapper;
+	@Autowired
+	private HttpSession userSession;
+	@Autowired
+	private HttpSession workerSession;
+	@Autowired
+	private HttpSession hospitalSession;
+	@Autowired
+	private HttpSession settlementSession;
+
+	// 首页
+	@RequestMapping("/index")
+	public String index() {
+		return "index";
+	}
+
+	// 填保
+	@RequestMapping("/orderContract")
+	public String orderContract() {
+		if (userSession.getAttribute("username") != null) {
+			return "orderContract";
+		}
+		return "login";
+	}
+
+	// 查看保险详情
+	@RequestMapping("/detail")
+	public String detail() {
+		if (userSession.getAttribute("username") != null) {
+			return "detail";
+		}
+		return "login";
+	}
+
+	// 存储合同信息
+	@RequestMapping(value = "/saveorderInfo", method = RequestMethod.POST)
+	@ResponseBody
+	public String saveorderInfo(String kind1, String range1, String customQuotation1, String kind2, String range2,
+			String customQuotation2, String kind3, String range3, String customQuotation3, String kind4, String range4,
+			String customQuotation4, String kind5, String range5, String customQuotation5, String kind6, String range6,
+			String customQuotation6, String kind7, String range7, String customQuotation7, String kind8, String range8,
+			String customQuotation8, String date, String totalValue, String orderstartDate, String orderendDate,
+			String city, String orderName, String certifitype, String certifiNumber, String sex, String birthday,
+			String phonenumber, String email, String orderedName, String relationship, String certifiType2,
+			String certifiNumber2, String birthday2, String sex2, String phoneNumber2, String contractState,
+			String userName, String contractName, String manager, String contractId) {
+		contractState = "1";
+		manager = "admin";
+		contractId = "contract";
+		userName = userSession.getAttribute("username").toString();
+		contractName = "一般意外保险";
+		Contract contract = new Contract(kind1, range1, customQuotation1, kind2, range2, customQuotation2, kind3,
+				range3, customQuotation3, kind4, range4, customQuotation4, kind5, range5, customQuotation5, kind6,
+				range6, customQuotation6, kind7, range7, customQuotation7, kind8, range8, customQuotation8, date,
+				totalValue, orderstartDate, orderendDate, city, orderName, certifitype, certifiNumber, sex, birthday,
+				phonenumber, email, orderedName, relationship, certifiType2, certifiNumber2, birthday2, sex2,
+				phoneNumber2, contractState, userName, contractName, manager, contractId);
+		contractmapper.insertContract(contract);
+		String value = JacksonUtil.toJSon(contract);
+
+		Router.getInformation("invoke", certifiNumber, contractId, value);
+		return "success";
+	}
+
+	// 电子病历
+	@RequestMapping(value = "/savemedicalCare", method = RequestMethod.POST)
+	@ResponseBody
+	public String medicalCare(String certifyType3, String certifiNumber3, String age, String sex3, String in_hospital,
+			String type_value, String visitTime, String miaoshu, String history, String kind, String range_value,
+			String payment, String patientName) {
+		String medicalcareID = "medicalcareID";
+		MedicalCare medicalcare = new MedicalCare(certifyType3, certifiNumber3, age, sex3, in_hospital, type_value,
+				visitTime, miaoshu, kind, range_value, history, payment, patientName, medicalcareID);
+		String value = JacksonUtil.toJSon(medicalcare);
+		Router.getInformation("invoke", certifiNumber3, "medicalcare", value);
+		return "success";
+	}
+
+	// 合同
+	@RequestMapping("/contract")
+	public String contract() {
+		if (userSession.getAttribute("username") != null) {
+			return "contract";
+		}
+		return "login";
+	}
+
+	// 电子病历;
+	@RequestMapping("/medicalCare")
+	public String medicalCare() {
+		if (hospitalSession.getAttribute("username") != null) {
+			return "contract";
+		}
+		return "hospital";
+	}
+
+	// 保险
+	@RequestMapping("/buy")
+	public String buy() {
+		return "buy";
+	}
+
+	// 立即购买
+	@RequestMapping("/order")
+	public String order() {
+		return "order";
+	}
+
+	@RequestMapping("/settlement")
+	public String settlement() {
+		if (settlementSession.getAttribute("username") != null) {
+			return "settlement";
+		}
+		return "admin";
+	}
+
+	@RequestMapping("/information")
+	public String information() {
+		if (userSession.getAttribute("username") == null) {
+			return "login";
+		}
+		return "information";
+	}
+
+	// 个人信息
+	@RequestMapping(value = "/info", method = RequestMethod.POST)
+	@ResponseBody
+	public String info() {
+		if (userSession.getAttribute("username") == null) {
+			return "needLogin";
+		}
+		return "information";
+	}
+
+	// 登陆页面
+	@RequestMapping("/login")
+	public String login() {
+		return "/login";
+	}
+
+	// 注册页面
+
+	@RequestMapping("/register")
+	public String register() {
+		return "/register";
+	}
+
+	// configure页面
+	@RequestMapping(value = "/configure", method = RequestMethod.POST)
+	@ResponseBody
+	public String configure(HttpServletRequest request) {
+		settlementSession.setAttribute("policyNumber", request.getParameter("policyNumber"));
+		settlementSession.setAttribute("medicalCareId", request.getParameter("medicalCareId"));
+		return "configure";
+	}
+
+	@RequestMapping(value = "/configuration", method = RequestMethod.POST)
+	@ResponseBody
+	public List<String> configuration() {
+		String policyNumber = settlementSession.getAttribute("policyNumber").toString();
+		String medicalCareId = settlementSession.getAttribute("medicalCareId").toString();
+		Router.getInformationnext(policyNumber);
+		List<String> resultContract = Router.getReturnListCheck2();
+		Router.setReturnListCheck2(new ArrayList<String>());
+		Router.getInformationnext(medicalCareId);
+		List<String> resultMedical = Router.getReturnListCheck2();
+		resultContract.addAll(resultMedical);
+		Router.setReturnListCheck2(new ArrayList<String>());
+		return resultContract;
+	}
+
+	@RequestMapping("/configure")
+	public String configure2() {
+		if (workerSession.getAttribute("username") == null) {
+			return "admin";
+		} else {
+			return "/configure";
+		}
+	}
+
+	// 员工页面
+	@RequestMapping("/admin")
+	public String admin() {
+		if (workerSession.getAttribute("username") == null) {
+			return "login";
+		} else {
+			return "/admin";
+		}
+
+	}
+
+	// 查询电子病历;
+	@RequestMapping("/medicalSearch")
+	public String medicalSearch() {
+		if (userSession.getAttribute("username") != null) {
+			return "medicalSearch";
+		} else {
+			return "login";
+		}
+
+	}
+
+	// 查看医疗数据详情
+	@RequestMapping("/medicalDetail")
+	public String medicalDetail() {
+		if (userSession.getAttribute("username") != null) {
+			return "medicalDetail";
+		} else {
+			return "login";
+		}
+
+	}
+
+	// admin登陆页面
+	@RequestMapping("/adminLogin")
+	public String adminLogin() {
+		return "adminLogin";
+	}
+
+	// admin登陆页面
+	@RequestMapping("/doctorLogin")
+	public String doctorLogin() {
+		return "/doctorLogin";
+	}
+
+	// 登录方法
+	@RequestMapping("/addlogin")
+	public String login(HttpServletRequest request) {
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
+		password = mdPassword(password, username);
+		User user = new User(username, password);
+		User userVerify = usermapper.getUser(username);
+		if(userVerify!=null) {
+			if (username.equals(userVerify.getUserName()) && password.equals(userVerify.getPassword())) {
+				userSession.setAttribute("username", username);
+				return "index";
+			}else {
+				return "login";
+			}
+		}else {
+			return "login";
+		}
+		
+		
+	}
+
+	// 退出登录
+	@RequestMapping("/logout")
+	public String logout() {
+		userSession.invalidate();
+		return "login";
+	}
+
+	@RequestMapping("/adminlogout")
+	public String adminlogout() {
+//		userSession.invalidate();
+//		if (workerSession.getAttribute("username").equals("worker1")
+//				|| workerSession.getAttribute("username").equals("worker2")
+//				|| workerSession.getAttribute("username").equals("worker3")
+//				|| workerSession.getAttribute("username").equals("worker4")) {
+//			workerSession.invalidate();
+//		} else if (settlementSession.getAttribute("username").equals("settleworker")) {
+//			settlementSession.invalidate();
+//		} else if (workerSession.getAttribute("username").equals("admin")) {
+//			workerSession.invalidate();
+//		}
+		return "adminLogin";
+	}
+
+	// 员工登录方法
+	@RequestMapping("/addadminlogin")
+    public String adminlogin(HttpServletRequest request) {
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
+        password = mdPassword(password, username);
+        User user = new User(username, password);
+        User userVerify = usermapper.getUser(username);
+        if(userVerify!=null) {
+            if (username.equals(userVerify.getUserName()) && password.equals(userVerify.getPassword())) {
+                if (username.equals("worker1") || username.equals("worker2") || username.equals("worker3")
+                        || username.equals("worker4")) {
+                    workerSession.setAttribute("username", username);
+                    return "underwriter";
+                } else if (username.equals("settleworker")) {
+                    settlementSession.setAttribute("username", username);
+                    return "settlement";
+                } else if (username.equals("admin")) {
+                    workerSession.setAttribute("username", username);
+                    return "admin";
+                } else {
+                    return "adminlogin";
+                }
+            } else {
+                return "adminLogin";
+            }
+        }else{
+            return "adminLogin";
+        }
+    }
+
+	// 注册方法
+	@RequestMapping(value = "/addregister", method = RequestMethod.POST)
+	@ResponseBody
+	public String register(String username, String password, String password2) {
+		User userVerify = usermapper.getUser(username);
+		if (username == "" || password == "" || password2 == "") {
+			return "用户名、密码不能为空";
+		} else if (userVerify != null) {
+			return "用户名已存在";
+		} else if (!(password.equals(password2))) {
+			return "密码不一致";
+		} else {
+			password = mdPassword(password, username);
+			User user = new User(username, password);
+			usermapper.insert(user);
+			return "success";
+		}
+	}
+
+	// madicalCare数据存储
+	// 读取order数据存储
+	@RequestMapping(value = "/orderInfo", method = RequestMethod.POST)
+	@ResponseBody
+	public String contract(String orderstartDate, String orderendDate, String city, String orderName,
+			String certifitype, String certifiNumber, String sex, String birthday, String phonenumber, String email,
+			String orderedName, String relationship, String certifiType2, String certifiNumber2, String birthday2,
+			String sex2, String phoneNumber2) {
+		OrderInfo orderinfo = new OrderInfo(orderstartDate, orderendDate, city, orderName, certifitype, certifiNumber,
+				sex, birthday, phonenumber, email);
+		ordercontractmapper.insertorderinfo(orderinfo);
+		OrderedInfo orderedinfo = new OrderedInfo(orderedName, relationship, certifiType2, certifiNumber2, birthday2,
+				sex2, phoneNumber2);
+		ordercontractmapper.insertorderedinfo(orderedinfo);
+		return "contract";
+	}
+
+	// 读取投保人与被投保人信息
+	// 读取order数据存储
+	@RequestMapping(value = "/detailOrder", method = RequestMethod.POST)
+	@ResponseBody
+	public String order(String kind1, String range1, String customQuotation1, String kind2, String range2,
+			String customQuotation2, String kind3, String range3, String customQuotation3, String kind4, String range4,
+			String customQuotation4, String kind5, String range5, String customQuotation5, String kind6, String range6,
+			String customQuotation6, String kind7, String range7, String customQuotation7, String kind8, String range8,
+			String customQuotation8, String date, String totalValue) {
+		if (userSession.getAttribute("username") != null) {
+			Order order = new Order(kind1, range1, customQuotation1, kind2, range2, customQuotation2, kind3, range3,
+					customQuotation3, kind4, range4, customQuotation4, kind5, range5, customQuotation5, kind6, range6,
+					customQuotation6, kind7, range7, customQuotation7, kind8, range8, customQuotation8, date,
+					totalValue);
+			ordermapper.insertOrder(order);
+			return "orderContract";
+		} else {
+			return "fail";
+		}
+	}
+
+	// 密码加密
+	private static String mdPassword(String password, String username) {
+		String md = "";
+		try {
+			String passw = "{dhjdfu34i34u34-zmew8732dfhjd-";
+			String usern = "dfhjdf8347sdhxcye-ehjcbeww34}";
+			String pass = password + passw + username + usern;
+			md = md5(pass);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return md;
+	}
+
+	private static String md5(String str) {
+		try {
+			byte[] returnByte = str.getBytes("utf-8");
+			MessageDigest md5 = MessageDigest.getInstance("MD5");
+			returnByte = md5.digest(str.getBytes("utf-8"));
+			StringBuffer buf = new StringBuffer("");
+			int i;
+			for (int offset = 0; offset < returnByte.length; offset++) {
+				i = returnByte[offset];
+				if (i < 0)
+					i += 256;
+				if (i < 16)
+					buf.append("0");
+				buf.append(Integer.toHexString(i));
+			}
+			str = buf.toString();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return str;
+	}
+
+	// 数据查询（用户信息、合同信息）
+	@RequestMapping(value = "/checkDate", method = RequestMethod.POST)
+	@ResponseBody
+	public List<String> checkDate(String searchName, String certifiNumber) {
+		String msg = "";
+		String userName = userSession.getAttribute("username").toString();
+		String queryID = certifiNumber + searchName;
+		String value = "test";
+		Router.getInformation("query", certifiNumber, searchName, value);
+		List<String> resultContract = Router.getReturnList();
+		Router.setReturnList(new ArrayList<String>());
+		return resultContract;
+	}
+
+	// 数据查询（用户信息、合同信息）
+	@RequestMapping(value = "/check", method = RequestMethod.POST)
+	@ResponseBody
+	public List<Contract> userToJson(String searchName, String certifiNumber) {
+		String msg = "";
+		String userName = userSession.getAttribute("username").toString();
+		List<Contract> contract = contractmapper.getContractOrder(userName);
+		for (int i = 0; i < contract.size(); i++) {
+			msg = JacksonUtil.toJSon(contract.get(i));
+		}
+		return contract;
+	}
+
+	// 员工查询所有合同
+	@RequestMapping(value = "search", method = RequestMethod.POST)
+	@ResponseBody
+	public List<Contract> userContract(HttpSession session) {
+		List<Contract> allContract = contractmapper.getAll();
+		return allContract;
+	}
+
+	// 员工查询具体合同
+	@RequestMapping(value = "detailSearch", method = RequestMethod.POST)
+	@ResponseBody
+	public List<Claim> userContract(HttpServletRequest request) {
+		List<Claim> searchClaim = null;
+		searchClaim = claimmapper.getClaim(request.getParameter("name"));
+		return searchClaim;
+	}
+
+	// admin分配理赔合同
+	@RequestMapping(value = "allocation", method = RequestMethod.POST)
+	@ResponseBody
+	public String allocation(HttpServletRequest request) {
+		Claim currentClaim = claimmapper.getSearchClaim(request.getParameter("policyNumber"),
+				request.getParameter("medicalCareId"));
+		currentClaim.setUnderwritingPerson(request.getParameter("worker"));
+		claimmapper.updateClaimWorker(request.getParameter("worker"), request.getParameter("policyNumber"),
+				request.getParameter("medicalCareId"));
+		String string1 = currentClaim.getUnderwritingPerson();
+		String string2 = request.getParameter("worker");
+		if (string1.equals(string2)) {
+			return string1;
+		} else {
+			return "change_fail";
+		}
+	}
+
+	// 员工查询具体合同
+	@RequestMapping(value = "apply", method = RequestMethod.POST)
+	@ResponseBody
+	public List<String> apply(HttpServletRequest request) {
+		String certifiNumber = request.getParameter("certifiNumber");
+		String policyNumber = request.getParameter("ContractId");
+		String medicalcareID = request.getParameter("medicalcareID");
+		Router.getClaimInformationDetail(policyNumber, medicalcareID);
+		int claimCount;
+		String str = "";
+		List<String> resultInformation = Router.getReturnListCheck4();
+		if (resultInformation.size() != 0) {
+			for (int i = 0; i <= resultInformation.size() - 1; i++) {
+				JSONObject msg2 = JSONObject.fromObject(resultInformation.get(i));
+				Claim claimCheck = claimmapper.getSearchClaim(msg2.getString("ContractId"),
+						msg2.getString("medicalcareID"));
+				if (claimCheck == null) {
+					if (msg2.getString("Check_result").equals("Success")) {
+						claimCount = 6;// 6表示理赔成功
+					} else {
+						claimCount = 2;// 2表示理赔失败
+					}
+					;
+					Claim currentClaim = new Claim(null, msg2.getString("ContractId"), "admin", claimCount, "admin",
+							msg2.getString("Information"), msg2.getString("medicalcareID"));
+					claimmapper.insert(currentClaim);
+					str = "succese";
+				} else {
+					str = "chongfu";
+				}
+			}
+		} else {
+
+			str = "没有匹配到数据";
+		}
+		resultInformation.add(str);
+		Router.setReturnListCheck4(new ArrayList<String>());
+		certifiNumber = "";
+		policyNumber = "";
+		return resultInformation;
+	}
+
+	// 用户查询医疗数据列表
+	@RequestMapping(value = "searchMedical", method = RequestMethod.POST)
+	@ResponseBody
+	public List<MedicalCare> searchMedical(String patientName, String certifiNumber) {
+		List<MedicalCare> medicalCares = madicalcaremapper.getMedical(patientName, certifiNumber);
+		return medicalCares;
+	}
+
+	// 医疗数据来源登录
+	@RequestMapping("/hospital")
+	public String hospital() {
+		if (workerSession.getAttribute("username2") == "hospitalWorker") {
+			return "medicalCare";
+		}
+		return "/hospital";
+	}
+
+	// 医疗数据来源退出登录
+	@RequestMapping("/hospitalLogout")
+	public String hospitalLogout() {
+		workerSession.invalidate();
+		return "hospital";
+	}
+
+	@RequestMapping("/settlementLogout")
+	public String settlementLogout() {
+		settlementSession.invalidate();
+		return "adminlogin";
+	}
+
+	// 医疗数据员工登录方法adddoctorlogin
+	@RequestMapping("/adddoctorlogin")
+	public String adddoctorlogin(HttpServletRequest request) {
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
+		password = mdPassword(password, username);
+		User user = new User(username, password);
+		User userVerify = usermapper.getUser(username);
+		if(userVerify!=null) {
+			if (username.equals("hospitalWorker") && password.equals(userVerify.getPassword())) {
+				workerSession.setAttribute("username", username);
+				return "medicalCare";
+			}else {
+				return "hospital";
+			}
+		}else {
+			return "hospital";
+		}
+		
+		
+	}
+
+	// 用户理赔查询页面settleSearch
+	@RequestMapping(value = "settleSearch", method = RequestMethod.GET)
+	public String settleSearch() {
+		if (userSession.getAttribute("username") != null) {
+			return "settleSearch";
+		}
+		return "login";
+	}
+
+	// 用户理赔查询settleSearch数据
+	@RequestMapping(value = "settleData", method = RequestMethod.POST)
+	@ResponseBody
+	public List<Claim> settleData(HttpServletRequest request) {
+		// String userName = session.getAttribute("username").toString();
+		String searchNumber = request.getParameter("certifiNumber");
+		String contractName = "contract";
+		searchNumber += contractName;
+		List<Claim> claim = new ArrayList<Claim>();
+		claim.addAll(claimmapper.getAllClaim(request.getParameter("certifiNumber") + "contract"));
+		List<Claim> claim2 = new ArrayList<Claim>();
+		claim2.addAll(claim);
+		int count = 0;
+		List<Claim> claim3 = null;
+		while (claim.size() != 0) {
+			searchNumber = request.getParameter("certifiNumber") + "contract" + Integer.toString(count);
+			claim3 = claimmapper.getAllClaim(searchNumber);
+			if (claim3.size() == 0) {
+				break;
+			} else {
+				claim2.addAll(claim3);
+			}
+			count++;
+			claim3 = null;
+		}
+		return claim2;
+
+	}
+
+	// 用户申请人工核保
+	@RequestMapping(value = "workerCheck", method = RequestMethod.POST)
+	@ResponseBody
+	public String workerCheck(HttpServletRequest request) {
+		String str = "";
+		String policyNumber = request.getParameter("policyNumber");
+		String medicalCareId = request.getParameter("medicalCareId");
+		Claim currentClaim = claimmapper.getSearchClaim(policyNumber, medicalCareId);
+		if (currentClaim.getClaimNumber() != 3) {
+			currentClaim.setClaimNumber(3);// 状态设为3表示已经申请复核
+			currentClaim.setClaimState("人工复核中");
+			claimmapper.updateClaim(currentClaim);
+			claimmapper.updateClaim2(currentClaim);
+			str = "申请成功";
+		} else if (currentClaim.getClaimNumber() == 3) {
+			str = "已经申请；请勿重复申请";
+		}
+		return str;
+	}
+
+	// 普通员工登陆核保页面
+	@RequestMapping(value = "underwriter", method = RequestMethod.POST)
+	@ResponseBody
+	public List<Claim> underwriter(HttpServletRequest request) {
+		String workername = workerSession.getAttribute("username").toString();
+		List<Claim> claim = claimmapper.getClaim2(workername, 3);
+		return claim;
+	}
+
+	// underwriter
+	@RequestMapping("/underwriter")
+	public String underwriter() {
+		if (workerSession.getAttribute("username") != null
+				&& (workerSession.getAttribute("username").toString().equals("worker1")
+						|| workerSession.getAttribute("username").toString().equals("worker2")
+						|| workerSession.getAttribute("username").toString().equals("worker3")
+						|| workerSession.getAttribute("username").toString().equals("worker4"))) {
+			return "/underwriter";
+		} else {
+			return "/admin";
+		}
+
+	}
+
+	// 普通员工updataClaim
+	@RequestMapping(value = "updataClaim", method = RequestMethod.POST)
+	@ResponseBody
+	public String updataClaim(HttpServletRequest request) {
+
+		Claim claimCheck = claimmapper.getSearchClaim(request.getParameter("ContractId"),
+				request.getParameter("medicalcareID"));
+		claimCheck.setClaimState(request.getParameter("result").toString());
+		int state = Integer.parseInt(request.getParameter("state"));
+		claimCheck.setClaimNumber(state);
+		claimmapper.updateClaim2(claimCheck);
+		claimmapper.updateClaim3(claimCheck);
+		return "ok";
+	}
+
+	// 理赔页面
+	@RequestMapping(value = "/settle", method = RequestMethod.POST)
+	@ResponseBody
+	public List<String> settle(HttpServletRequest request) {
+		List<Claim> resultClaim = claimmapper.getAllSettle(6);
+		String value = JacksonUtil.toJSon(resultClaim);
+		String policyNumber = "";
+		List<String> resultContract = new ArrayList<String>();
+		for (int i = 0; i <= resultClaim.size() - 1; i++) {
+			policyNumber = resultClaim.get(i).getPolicyNumber();
+			Router.getInformationnext(policyNumber);
+			List<String> resultContract2 = Router.getReturnListCheck2();
+			Router.setReturnListCheck2(new ArrayList<String>());
+			resultContract.addAll(resultContract2);
+		}
+		return resultContract;
+	}
+
+	// 理赔页面
+	@RequestMapping(value = "/settle2", method = RequestMethod.POST)
+	@ResponseBody
+	public List<Claim> settle2(HttpServletRequest request) {
+		List<Claim> resultClaim = claimmapper.getAllSettle(6);
+		return resultClaim;
+	}
+
+	// settleState理赔页面
+	@RequestMapping(value = "/settleState", method = RequestMethod.POST)
+	@ResponseBody
+	public String settleState(HttpServletRequest request) {
+		Claim resultClaim = claimmapper.getSearchClaim(request.getParameter("policyNumber"),
+				request.getParameter("medicalCareId"));
+		resultClaim.setClaimNumber(5);
+		claimmapper.updateClaimState(resultClaim.getClaimNumber(), request.getParameter("policyNumber"),
+				request.getParameter("medicalCareId"));
+		if (resultClaim.getClaimNumber() == 5) {
+			return "ok";
+		} else {
+			return "fail";
+		}
+	}
+}

@@ -1,0 +1,575 @@
+2018-04-02 22:28:59,249 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.hyperledger.fabric-sdk-java:fabric-sdk-java:1.0.1 @ /home/xcg/桌面/Demo/fabric-sdk-java/pom.xml.
+2018-04-02 22:29:02,918 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.hyperledger.fabric-sdk-java:fabric-sdk-java:1.0.1 @ /home/xcg/桌面/Demo/fabric-sdk-java/pom.xml.
+2018-04-02 22:29:03,998 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-02 22:29:06,866 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-02 22:29:08,952 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:29:08,989 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-04-02 22:29:09,018 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:29:09,026 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2018-04-02 22:29:12,848 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.hyperledger.fabric-sdk-java:fabric-sdk-java:1.0.1 @ /home/xcg/桌面/Demo/fabric-sdk-java/pom.xml.
+2018-04-02 22:29:14,718 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-02 22:29:18,644 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-02 22:29:20,000 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-02 22:29:20,122 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-02 22:29:20,486 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:29:20,500 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-04-02 22:29:20,514 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:29:20,514 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2018-04-02 22:29:22,929 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-02 22:29:23,371 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-02 22:29:23,399 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-02 22:29:23,401 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:29:23,402 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-02 22:29:23,407 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:29:23,408 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-02 22:32:14,228 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-02 22:32:14,739 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.hyperledger.fabric-sdk-java:fabric-sdk-java:1.0.1 @ /home/xcg/桌面/Demo/fabric-sdk-java/pom.xml.
+2018-04-02 22:32:16,420 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/grpc/grpc-core/maven-metadata.xml
+2018-04-02 22:32:16,695 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/grpc/grpc-core/maven-metadata.xml
+2018-04-02 22:32:17,161 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/maven-metadata.xml
+2018-04-02 22:32:17,410 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/maven-metadata.xml
+2018-04-02 22:32:17,980 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+2018-04-02 22:32:18,267 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+2018-04-02 22:32:26,172 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+2018-04-02 22:32:26,787 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+2018-04-02 22:32:27,256 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/2.10.0-v20130911-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:27,810 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/2.10.0-v20130911-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:28,424 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/2.10.0-v20140117-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:28,912 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/2.10.0-v20140117-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:29,448 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/2.10.0-v20140514-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:29,873 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/2.10.0-v20140514-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:30,268 [DefaultMetadataResolver-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+2018-04-02 22:32:30,305 [DefaultMetadataResolver-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+2018-04-02 22:32:30,678 [DefaultMetadataResolver-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+2018-04-02 22:32:31,579 [DefaultMetadataResolver-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+2018-04-02 22:32:32,111 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/2.10.0-v20130911-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:32,695 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/2.10.0-v20130911-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:33,135 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/2.10.0-v20140117-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:34,365 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/2.10.0-v20140117-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:34,978 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/2.10.0-v20140514-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:35,604 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/2.10.0-v20140514-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:35,880 [DefaultMetadataResolver-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/maven-metadata.xml
+2018-04-02 22:32:36,057 [DefaultMetadataResolver-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/maven-metadata.xml
+2018-04-02 22:32:36,125 [DefaultMetadataResolver-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/maven-metadata.xml
+2018-04-02 22:32:36,617 [DefaultMetadataResolver-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/maven-metadata.xml
+2018-04-02 22:32:37,231 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.0-rc4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:37,656 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.0-rc4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:38,254 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.7.0-rc4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:38,870 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.7.0-rc4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:39,494 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.1-2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:40,098 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.1-2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:41,949 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:42,397 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:45,021 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:45,640 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:46,252 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:46,875 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:48,417 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:49,328 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:50,774 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.10-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:51,571 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.10-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:52,188 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.8-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:52,804 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.8-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:53,257 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.8.8-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:53,824 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.8.8-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:54,437 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.8.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:54,948 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.8.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:55,461 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.9-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:56,075 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.9-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:58,474 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.10-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:58,949 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.10-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:32:59,555 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.11-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:00,174 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.11-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:00,784 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.11.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:02,627 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.11.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:03,246 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.11.2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:03,860 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.11.2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:04,469 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.12-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:04,895 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.12-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:05,504 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:06,108 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:06,722 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0,pr4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:07,336 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0,pr4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:07,764 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:08,362 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:08,809 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:09,384 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:09,998 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:10,613 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:11,073 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:11,525 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:12,046 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:12,479 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:12,911 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:13,337 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:13,890 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:14,324 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:14,740 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:15,197 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:15,636 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:16,072 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:16,558 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:16,981 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:17,435 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:17,870 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:18,308 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:18,757 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:19,199 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:19,611 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:20,243 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-parent/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:20,859 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-parent/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:21,301 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:21,744 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:22,290 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:22,735 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:23,153 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:24,323 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:24,764 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:27,068 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.2-SNAPSHOT/jackson-core-2.9.2-SNAPSHOT.pom
+2018-04-02 22:33:27,070 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-02 22:33:28,883 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:29,289 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:29,749 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:30,181 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:30,611 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:31,830 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:34,491 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:34,923 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:35,349 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:35,780 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:36,242 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.5-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:36,828 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.5-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:37,256 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/2.9.5-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:37,703 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/2.9.5-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:38,161 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.5-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:38,586 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.5-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:39,035 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.6-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:39,460 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.6-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:39,891 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:40,943 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:41,372 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:42,398 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:42,823 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:43,252 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:43,659 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-parent/3.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:44,097 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-parent/3.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:44,547 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/3.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:44,972 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/3.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:46,543 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:46,983 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:47,238 [DefaultMetadataResolver-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/maven-metadata.xml
+2018-04-02 22:33:47,417 [DefaultMetadataResolver-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/maven-metadata.xml
+2018-04-02 22:33:47,851 [DefaultMetadataResolver-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/maven-metadata.xml
+2018-04-02 22:33:48,058 [DefaultMetadataResolver-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/maven-metadata.xml
+2018-04-02 22:33:48,523 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.7.0-rc4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:48,951 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.7.0-rc4-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:49,564 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:50,000 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:50,444 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:50,887 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:51,350 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:51,798 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:52,262 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.1.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:52,720 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.1.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-02 22:33:53,298 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-02 22:33:53,343 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-02 22:33:53,452 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fabric-sdk-java/src/main/java
+2018-04-02 22:33:53,452 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fabric-sdk-java/target/generated-sources/protobuf/java
+2018-04-02 22:33:53,453 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fabric-sdk-java/target/generated-sources/protobuf/grpc-java
+2018-04-02 22:33:53,453 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fabric-sdk-java/src
+2018-04-02 22:33:53,457 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fabric-sdk-java/src/test/java
+2018-04-02 22:33:53,457 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /fabric-sdk-java/src/test/resources overlaps with sources folder /fabric-sdk-java/src
+2018-04-02 22:33:53,636 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 99 sec
+2018-04-02 22:33:56,826 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-02 22:33:57,455 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:33:57,458 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-04-02 22:33:57,504 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:33:57,505 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2018-04-02 22:38:16,406 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.hyperledger.fabric-sdk-java:fabric-sdk-java:1.0.1 @ /home/xcg/桌面/Demo/fabric-sdk-java/pom.xml.
+2018-04-02 22:38:17,106 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-02 22:38:17,911 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-02 22:38:17,965 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-02 22:38:18,075 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:38:18,077 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-02 22:38:18,078 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:38:18,079 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-02 22:45:33,779 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-02 22:45:34,105 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-02 22:45:34,186 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-02 22:45:34,187 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:45:34,194 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-04-02 22:45:34,208 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:45:34,208 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2018-04-02 22:45:37,079 [Worker-10] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2018-04-02 22:46:09,745 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.mics.brank.fabric:SDK:0.0.1-SNAPSHOT @ /home/xcg/桌面/Demo/SDK/pom.xml.
+2018-04-02 22:46:10,467 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-02 22:46:11,256 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:46:11,257 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/SDK/src/main/resources
+2018-04-02 22:46:11,258 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:46:11,258 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/SDK/src/test/resources
+2018-04-02 22:46:12,726 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.lulu.mics_service:mics_service:0.0.1-SNAPSHOT @ /home/xcg/桌面/Demo/mics_service/pom.xml.
+2018-04-02 22:46:13,719 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:46:13,720 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-02 22:46:13,721 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 150 resources
+2018-04-02 22:46:13,756 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:46:13,756 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-02 22:46:18,649 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-02 22:46:20,068 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:46:20,068 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/SDK/src/main/resources
+2018-04-02 22:46:20,069 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:46:20,069 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/SDK/src/test/resources
+2018-04-02 22:46:22,340 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:46:22,344 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-02 22:46:22,347 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 150 resources
+2018-04-02 22:46:22,422 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 22:46:22,423 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-02 23:35:39,559 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 23:35:39,578 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-02 23:35:39,579 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-02 23:35:39,582 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 23:35:39,582 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-02 23:36:09,776 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 23:36:09,777 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-02 23:36:09,778 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-02 23:36:09,782 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 23:36:09,782 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-02 23:36:19,875 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 23:36:19,875 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-02 23:36:19,875 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-02 23:36:19,878 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-02 23:36:19,878 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-03 00:18:37,611 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-03 00:18:37,617 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-03 00:18:37,618 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-03 00:18:37,643 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-03 00:18:37,643 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-03 00:19:59,567 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-03 00:19:59,567 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-03 00:19:59,568 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-03 00:19:59,578 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-03 00:19:59,578 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-19 22:14:35,707 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.mics.brank.fabric:SDK:0.0.1-SNAPSHOT @ /home/xcg/桌面/Demo/SDK/pom.xml.
+2018-04-19 22:14:38,434 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-19 22:14:40,164 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.hyperledger.fabric-sdk-java:fabric-sdk-java:1.0.1 @ /home/xcg/桌面/Demo/fabric-sdk-java/pom.xml.
+2018-04-19 22:14:41,082 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.lulu.mics_service:mics_service:0.0.1-SNAPSHOT @ /home/xcg/桌面/Demo/mics_service/pom.xml.
+2018-04-19 22:15:07,795 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-19 22:15:15,107 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:15:15,117 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-04-19 22:15:15,164 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:15:15,165 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2018-04-19 22:15:20,888 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-19 22:15:22,387 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:15:22,388 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/SDK/src/main/resources
+2018-04-19 22:15:22,391 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:15:22,391 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/SDK/src/test/resources
+2018-04-19 22:15:27,991 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:15:27,992 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-19 22:15:27,998 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 150 resources
+2018-04-19 22:15:28,492 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:15:28,493 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-19 22:17:42,902 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2018-04-19 22:18:04,652 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-19 22:18:05,860 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.hyperledger.fabric-sdk-java:fabric-sdk-java:1.0.1 @ /home/xcg/桌面/Demo/fabric-sdk-java/pom.xml.
+2018-04-19 22:18:08,792 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/grpc/grpc-core/maven-metadata.xml
+2018-04-19 22:18:09,738 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/grpc/grpc-core/maven-metadata.xml
+2018-04-19 22:18:10,053 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/maven-metadata.xml
+2018-04-19 22:18:10,361 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/maven-metadata.xml
+2018-04-19 22:18:10,896 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+2018-04-19 22:18:11,169 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+2018-04-19 22:18:20,975 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/maven-metadata.xml
+2018-04-19 22:18:20,978 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Could not transfer metadata org.eclipse.emf:org.eclipse.emf.common/maven-metadata.xml from/to sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots): connect timed out
+2018-04-19 22:18:25,023 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/2.10.0-v20130911-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:25,362 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/2.10.0-v20130911-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:25,817 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/2.10.0-v20140117-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:26,123 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/2.10.0-v20140117-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:26,535 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/2.10.0-v20140514-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:26,946 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.common/2.10.0-v20140514-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:27,327 [DefaultMetadataResolver-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+2018-04-19 22:18:27,332 [DefaultMetadataResolver-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+2018-04-19 22:18:27,565 [DefaultMetadataResolver-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+2018-04-19 22:18:27,633 [DefaultMetadataResolver-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/maven-metadata.xml
+2018-04-19 22:18:28,062 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/2.10.0-v20130911-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:28,473 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/2.10.0-v20130911-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:28,884 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/2.10.0-v20140117-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:29,293 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/2.10.0-v20140117-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:29,596 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/2.10.0-v20140514-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:30,012 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/emf/org.eclipse.emf.ecore/2.10.0-v20140514-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:30,519 [DefaultMetadataResolver-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/maven-metadata.xml
+2018-04-19 22:18:30,531 [DefaultMetadataResolver-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/maven-metadata.xml
+2018-04-19 22:18:30,819 [DefaultMetadataResolver-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/maven-metadata.xml
+2018-04-19 22:18:30,872 [DefaultMetadataResolver-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/maven-metadata.xml
+2018-04-19 22:18:31,440 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.0-rc4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:31,747 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.0-rc4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:32,164 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.7.0-rc4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:32,474 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.7.0-rc4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:32,872 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.1-2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:33,283 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.1-2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:33,794 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:34,104 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:34,431 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:34,729 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:35,108 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:35,432 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:35,749 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:36,146 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:36,455 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.10-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:36,764 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.7.10-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:37,275 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.8-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:37,613 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.8-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:37,989 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.8.8-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:38,308 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.8.8-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:38,704 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.8.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:39,015 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.8.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:39,335 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.9-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:39,726 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.9-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:40,039 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.10-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:40,356 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.10-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:40,676 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.11-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:40,997 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.11-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:41,312 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.11.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:41,635 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.11.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:41,972 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.11.2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:42,277 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.11.2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:42,697 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.12-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:43,008 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.12-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:43,329 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:43,637 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:44,026 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0,pr4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:44,345 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0,pr4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:44,652 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:45,049 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:45,379 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:45,700 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:46,010 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:46,309 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:46,637 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:46,937 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:47,301 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:47,621 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:48,056 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:48,488 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:49,039 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:49,354 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:49,696 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:50,064 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:50,376 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:50,782 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:51,193 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:51,501 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.0.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:51,840 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:52,215 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.0.pr4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:52,623 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:53,034 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:53,445 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:53,754 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:54,154 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-parent/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:54,479 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-parent/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:54,832 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:55,184 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:55,490 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:55,794 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:56,200 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:56,504 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:18:56,850 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:07,238 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.2-SNAPSHOT/jackson-core-2.9.2-SNAPSHOT.pom
+2018-04-19 22:19:12,939 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:13,243 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:13,600 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:14,010 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:14,337 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:14,729 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:15,044 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:15,353 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:15,826 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:16,161 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.9.4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:16,489 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.5-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:16,786 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.5-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:17,142 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/2.9.5-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:17,517 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/2.9.5-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:17,824 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.5-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:18,125 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/2.9.5-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:18,466 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.6-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:18,831 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.6-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:19,142 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.6-SNAPSHOT/jackson-databind-2.9.6-20180419.045715-10.pom
+2018-04-19 22:19:19,535 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.6-SNAPSHOT/jackson-databind-2.9.6-20180419.045715-10.pom
+2018-04-19 22:19:19,873 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:20,177 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:20,659 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/3.0.0-SNAPSHOT/jackson-databind-3.0.0-20180419.001953-434.pom
+2018-04-19 22:19:20,957 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/3.0.0-SNAPSHOT/jackson-databind-3.0.0-20180419.001953-434.pom
+2018-04-19 22:19:21,378 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:21,791 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-base/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:22,195 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:22,503 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-bom/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:22,911 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-parent/3.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:23,322 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-parent/3.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:23,731 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/3.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:24,040 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/3.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:24,445 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/3.0-SNAPSHOT/jackson-annotations-3.0-20180412.202830-25.pom
+2018-04-19 22:19:24,753 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/3.0-SNAPSHOT/jackson-annotations-3.0-20180412.202830-25.pom
+2018-04-19 22:19:25,167 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:25,530 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/3.0.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:25,860 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/3.0.0-SNAPSHOT/jackson-core-3.0.0-20180413.173805-254.pom
+2018-04-19 22:19:26,160 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/3.0.0-SNAPSHOT/jackson-core-3.0.0-20180413.173805-254.pom
+2018-04-19 22:19:26,402 [DefaultMetadataResolver-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/maven-metadata.xml
+2018-04-19 22:19:26,475 [DefaultMetadataResolver-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/maven-metadata.xml
+2018-04-19 22:19:26,778 [DefaultMetadataResolver-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/maven-metadata.xml
+2018-04-19 22:19:26,778 [DefaultMetadataResolver-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/maven-metadata.xml
+2018-04-19 22:19:27,101 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.7.0-rc4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:27,469 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.7.0-rc4-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:27,927 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:28,237 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:28,645 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:28,950 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.0.pr2-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:29,289 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:29,669 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.1-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:30,000 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.1.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:30,389 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.9.1.pr3-SNAPSHOT/maven-metadata.xml
+2018-04-19 22:19:31,282 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.mics.brank.fabric:SDK:0.0.1-SNAPSHOT @ /home/xcg/桌面/Demo/SDK/pom.xml.
+2018-04-19 22:19:31,289 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.eclipse.emf:org.eclipse.emf.common/maven-metadata.xml from https://oss.sonatype.org/content/repositories/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of sonatype-nexus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.eclipse.emf:org.eclipse.emf.common/maven-metadata.xml from/to sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots): connect timed out
+2018-04-19 22:19:32,293 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/3.0-SNAPSHOT/jackson-annotations-3.0-20180412.202830-25.jar
+2018-04-19 22:19:34,095 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/3.0-SNAPSHOT/jackson-annotations-3.0-20180412.202830-25.jar
+2018-04-19 22:19:35,227 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.eclipse.emf:org.eclipse.emf.common/maven-metadata.xml from https://oss.sonatype.org/content/repositories/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of sonatype-nexus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.eclipse.emf:org.eclipse.emf.common/maven-metadata.xml from/to sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots): connect timed out
+2018-04-19 22:19:35,776 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-19 22:19:35,785 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.eclipse.emf:org.eclipse.emf.common/maven-metadata.xml from https://oss.sonatype.org/content/repositories/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of sonatype-nexus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.eclipse.emf:org.eclipse.emf.common/maven-metadata.xml from/to sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots): connect timed out
+2018-04-19 22:19:35,855 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-19 22:19:36,082 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fabric-sdk-java/src/main/java
+2018-04-19 22:19:36,084 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fabric-sdk-java/target/generated-sources/protobuf/java
+2018-04-19 22:19:36,085 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fabric-sdk-java/target/generated-sources/protobuf/grpc-java
+2018-04-19 22:19:36,086 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fabric-sdk-java/src
+2018-04-19 22:19:36,092 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fabric-sdk-java/src/test/java
+2018-04-19 22:19:36,093 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /fabric-sdk-java/src/test/resources overlaps with sources folder /fabric-sdk-java/src
+2018-04-19 22:19:37,661 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 93 sec
+2018-04-19 22:19:42,041 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:19:42,045 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-04-19 22:19:42,103 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:19:42,103 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2018-04-19 22:19:44,309 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:19:44,309 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/SDK/src/main/resources
+2018-04-19 22:19:44,311 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:19:44,311 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/SDK/src/test/resources
+2018-04-19 22:20:34,009 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-19 22:20:34,018 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:20:34,028 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-19 22:20:34,031 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:20:34,031 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-19 22:20:34,110 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:20:34,111 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/SDK/src/main/resources
+2018-04-19 22:20:34,112 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:20:34,113 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/SDK/src/test/resources
+2018-04-19 22:22:55,511 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-19 22:22:56,881 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-19 22:22:56,971 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-19 22:22:57,003 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:22:57,035 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-04-19 22:22:57,048 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:22:57,049 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2018-04-19 22:22:57,676 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:22:57,676 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/SDK/src/main/resources
+2018-04-19 22:22:57,678 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:22:57,678 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/SDK/src/test/resources
+2018-04-19 22:29:51,277 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:29:51,375 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-19 22:29:51,379 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 150 resources
+2018-04-19 22:29:51,435 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:29:51,435 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-19 22:34:07,564 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:34:07,617 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-19 22:34:07,634 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 150 resources
+2018-04-19 22:34:07,681 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:34:07,683 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-19 22:34:13,458 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:34:13,480 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-19 22:34:13,512 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 150 resources
+2018-04-19 22:34:13,611 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:34:13,615 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-19 22:35:46,696 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:35:46,776 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-19 22:35:46,782 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 150 resources
+2018-04-19 22:35:46,837 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 22:35:46,837 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-19 23:08:11,208 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 23:08:11,558 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-19 23:08:11,581 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-19 23:08:11,686 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 23:08:11,686 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-19 23:12:03,625 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 23:12:03,630 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-19 23:12:03,632 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-19 23:12:03,666 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 23:12:03,666 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-19 23:26:30,379 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 23:26:30,463 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-19 23:26:30,534 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-19 23:26:30,782 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 23:26:30,784 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-19 23:56:06,934 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 23:56:07,019 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-19 23:56:07,055 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-19 23:56:07,224 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 23:56:07,225 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-19 23:58:00,698 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 23:58:00,713 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-19 23:58:00,715 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-19 23:58:00,743 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-19 23:58:00,743 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-20 00:04:10,491 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 00:04:10,514 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-20 00:04:10,518 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-20 00:04:10,594 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 00:04:10,595 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-20 00:04:19,681 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 00:04:19,681 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-20 00:04:19,693 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-20 00:04:19,766 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 00:04:19,767 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-20 00:04:32,190 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 00:04:32,193 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-20 00:04:32,197 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-20 00:04:32,229 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 00:04:32,229 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-20 00:04:49,249 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 00:04:49,250 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-20 00:04:49,253 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-20 00:04:49,278 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 00:04:49,278 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/xcg/桌面/Demo/mics_service/src/test/resources
+2018-04-20 16:11:03,361 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.hyperledger.fabric-sdk-java:fabric-sdk-java:1.0.1 @ /Users/macbook/Desktop/IBM/Demo/fabric-sdk-java/pom.xml.
+2018-04-20 16:11:05,525 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-20 16:11:09,264 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.mics.brank.fabric:SDK:0.0.1-SNAPSHOT @ /Users/macbook/Desktop/IBM/Demo/SDK/pom.xml.
+2018-04-20 16:11:09,284 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 16:11:09,292 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-04-20 16:11:09,302 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 16:11:09,302 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2018-04-20 16:11:10,974 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.mics.brank.fabric:SDK:0.0.1-SNAPSHOT @ /Users/macbook/Desktop/IBM/Demo/SDK/pom.xml.
+2018-04-20 16:11:11,044 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-20 16:11:11,736 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-20 16:11:12,605 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 16:11:12,606 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/macbook/Desktop/IBM/Demo/SDK/src/main/resources
+2018-04-20 16:11:12,609 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 16:11:12,609 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/macbook/Desktop/IBM/Demo/SDK/src/test/resources
+2018-04-20 16:11:13,360 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.lulu.mics_service:mics_service:0.0.1-SNAPSHOT @ /Users/macbook/Desktop/IBM/Demo/mics_service/pom.xml.
+2018-04-20 16:11:15,576 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 16:11:15,577 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-20 16:11:15,579 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 146 resources
+2018-04-20 16:11:15,592 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 16:11:15,592 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/macbook/Desktop/IBM/Demo/mics_service/src/test/resources
+2018-04-20 16:11:16,995 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.mics.brank.fabric:SDK:0.0.1-SNAPSHOT @ /Users/macbook/Desktop/IBM/Demo/SDK/pom.xml.
+2018-04-20 16:11:18,262 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-20 16:11:18,995 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.hyperledger.fabric-sdk-java:fabric-sdk-java:1.0.1 @ /Users/macbook/Desktop/IBM/Demo/fabric-sdk-java/pom.xml.
+2018-04-20 16:11:19,511 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.lulu.mics_service:mics_service:0.0.1-SNAPSHOT @ /Users/macbook/Desktop/IBM/Demo/mics_service/pom.xml.
+2018-04-20 16:11:25,171 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-20 16:11:25,737 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-20 16:11:25,811 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-04-20 16:11:25,971 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 16:11:26,053 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-04-20 16:11:26,069 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 16:11:26,070 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2018-04-20 16:11:27,389 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.2-SNAPSHOT is missing, no dependency information available
+2018-04-20 16:11:27,898 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 16:11:27,899 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/macbook/Desktop/IBM/Demo/SDK/src/main/resources
+2018-04-20 16:11:27,909 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 16:11:27,910 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/macbook/Desktop/IBM/Demo/SDK/src/test/resources
+2018-04-20 16:11:29,623 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 16:11:29,670 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-20 16:11:29,685 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 146 resources
+2018-04-20 16:11:29,905 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-20 16:11:29,905 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/macbook/Desktop/IBM/Demo/mics_service/src/test/resources

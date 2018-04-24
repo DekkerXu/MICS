@@ -1,0 +1,8 @@
+contextsDir=/Library/ApacheTomcat/conf/Catalina/localhost
+eclipse.preferences.version=1
+managerUrl=http\://localhost\:8080/manager
+projectsInCp=shopping;
+tomcatConfigFile=/Library/ApacheTomcat/conf/server.xml
+tomcatDir=/Library/ApacheTomcat
+tomcatJRE=com.oracle.java.8u144.jdk
+tomcatVersion=tomcatV7
