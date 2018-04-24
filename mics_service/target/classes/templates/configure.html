@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>审核</title>
+<!--页头-静态资源-->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/bootstrap-datepicker3.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/configuration.css" />
+<link rel="stylesheet" type="text/css" href="/css/bootstrap-button.css" />
+<script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+
+<script type="text/javascript" src="/js/configure.js"></script>
+</head>
+
+<body>
+	<section class="navbar">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="col-sm-3 abled"><a
+                            href="/user/underwriter">当前理赔申请</a></li>
+                        
+                    </ul>
+			</div>
+		</div>
+	</div>
+	</section>
+	<h2 style="font-family: verdana; font-size: 30px; color: #f63">
+		<strong>保险合同</strong>
+	</h2>
+	<form method="post">
+		<table border="6" width="60%" height="1000px"
+			bordercolorlight="#008000" bordercolordark="#808000" align="center">
+			<tbody>
+				<tr>
+					<td id="zuo"><text style="font-size: 40px ">1.</text> <text
+							style="font-size: 30px">报价明细</text></td>
+					<td>
+						<table id="klm" border="2" width="100%" height="100%"
+							bordercolorlight="#008000" bordercolordark="#808000"
+							align="center">
+							<tr align="center" style="font-size: 20px">
+								<td style="color: #f63"><strong>保障范围</strong></td>
+								<td style="color: #f63"><strong> 保障类型</strong></td>
+								<td style="color: #f63"><strong> 自定义报价 </strong></td>
+							</tr>
+							<tr>
+								<td id="k1" name="rangename1"></td>
+								<td id="l1" name="kindname1"></td>
+								<td id="m1" name="ordermoney1"></td>
+							</tr>
+							<tr>
+								<td id="k2" name="rangename2"></td>
+								<td id="l2" name="kindname2"></td>
+								<td id="m2" name="ordermoney2"></td>
+							</tr>
+							<tr>
+								<td id="k3" name="rangename3"></td>
+								<td id="l3" name="kindname3"></td>
+								<td id="m3" name="ordermoney3"></td>
+							</tr>
+							<tr>
+								<td id="k4" name="rangename4"></td>
+								<td id="l4" name="kindname4"></td>
+								<td id="m4" name="ordermoney4"></td>
+							</tr>
+							<tr>
+								<td id="k5" name="rangename5"></td>
+								<td id="l5" name="kindname5"></td>
+								<td id="m5" name="ordermoney5"></td>
+							</tr>
+							<tr>
+								<td id="k6" name="rangename6"></td>
+								<td id="l6" name="kindname6"></td>
+								<td id="m6" name="ordermoney6"></td>
+							</tr>
+							<tr>
+								<td id="k7" name="rangename7"></td>
+								<td id="l7" name="kindname7"></td>
+								<td id="m7" name="ordermoney7"></td>
+							</tr>
+							<tr>
+								<td id="k8" name="rangename8"></td>
+								<td id="l8" name="kindname8"></td>
+								<td id="m8" name="ordermoney8"></td>
+							</tr>
+						</table>
+						
+					</td>
+				</tr>
+				<tr>
+					<td id="zuo"><text style="font-size: 40px ">2.</text> <text
+							style="font-size: 30px">报价总计</text></td>
+					<td><text style="font-size: 20px">保险期限：</text> <span id="date"></span>
+						到 <span id="date2"></span> <span id="time"></span> <br /> <br />
+						<div id="baojia1" padding-right="20px">
+							保价:<span style="font-size: 20px" id="totalValue"
+								name="totalValue"></span>
+						</div></td>
+				</tr>
+				<tr>
+					<td id="zuo"><text style="font-size: 30px ">3.投保人信息</text></td>
+					<td><span id="tt" style="font-size: 20px">姓&emsp;&emsp;名：</span>
+						<span id="name"></span> <br /> <br /> <span
+						style="font-size: 20px">证件类型：</span> <span id="certifiType"></span>
+						<br /> <br /> <span style="font-size: 20px">证件号码：</span> <span
+						id="certifiNumber"></span> <br /> <br /> <span
+						style="font-size: 20px">性&emsp;&emsp;别：</span> <span id="sex"></span>
+						<br /> <br /> <span style="font-size: 20px">出生日期：</span> <span
+						id="birthday"></span> <br /> <br /> <span style="font-size: 20px">手机号码：</span>
+						<span id="phoneNumber"></span> <br /> <br /> <span
+						style="font-size: 20px">电子邮件：</span> <span id="email"></span> <br />
+						<br /> <span style="font-size: 20px">常住城市：</span> <span id="city"></span>
+						<br />
+						</td>
+				</tr>
+				<tr>
+					<td id="zuo"><text style="font-size: 30px">4.被保人信息</text></td>
+					<td><span style="font-size: 20px">姓&emsp;&emsp;名：</span> <span
+						id="orderedName"></span> <br /> <br /> <span
+						style="font-size: 20px">与投保人关系：</span> <span id="relationship"></span>
+						<br /> <br /> <span style="font-size: 20px">证件信息：</span> <span
+						id="certifiNumber2"></span> <br /> <br /> <span
+						style="font-size: 20px">出生日期：</span> <span id="birthday2"></span>
+						<br /> <br /> <span style="font-size: 20px">性别：</span> <span
+						id="sex2"></span> <br /> <br /> <span style="font-size: 20px">手机号码：</span>
+						<span id="phoneNumber2"></span> <br /></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+	
+	<h2 style="text-align: center; color: #f63">电子病历</h2>
+
+	<div class="container">
+		<div class="col-md-12" style="height: auto; border: 1px solid #ccc">
+			<h4>个人信息</h4>
+			<form action="/user/saveMedicalCare" method="post">
+				<div class="row">
+					<div class="col-md-4">
+						<label>姓&#12288;&#12288;名：</label> <span id="PatientName"></span>
+					</div>
+					<div class="col-md-4">
+						<label>证&#12288;&#12288;件：</label> <span id="CertifyType3"></span>
+					</div>
+					<div class="col-md-4">
+						<label>证件号码：</label> <span id="CertifiNumber3"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<label>费&#12288;&#12288;用：</label> <span id="Payment"></span>
+					</div>
+					<div class="col-md-4">
+						<label>种&#12288;&#12288;类：</label> <span id="Kind"></span>
+					</div>
+					<div class="col-md-4">
+						<label>范&#12288;&#12288;围：</label> <span id="Range_value"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<label>年&#12288;&#12288;龄：</label> <span id="Age"></span>
+					</div>
+					<div class="col-md-4">
+						<label>性&#12288;&#12288;别：</label> <span id="Sex3"></span>
+					</div>
+					<div class="col-md-4">
+						<label>是否住院：</label> <span id="In_hospital"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<label>科&#12288;&#12288;室：</label> <span id="Type_value"></span>
+					</div>
+					<div class="col-md-4">
+						<label>民&#12288;&#12288;族：</label> <span id="Kind"></span>
+					</div>
+					<div class="col-md-4">
+						<label>就诊时间：</label> <span id="VisitTime"></span>
+					</div>
+				</div>
+				<div class="row" style="margin-top: 25px">
+					<div class="col-md-12">
+						<label>主&#12288;&#12288;诉：</label>
+						<div style="width: 100%; height: 50px; border: 1px solid black" id="Describe"></div>
+					</div>
+				</div>
+				<div class="row" style="margin-top: 25px">
+					<div class="col-md-12">
+						<label>现有病史：</label>
+						<div style="width: 100%; height: 400px; border: 1px solid black" id="History"></div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<h2 style="text-align: center; color: #f63">员工匹配结果</h2>
+	<div class="container">
+		<div class="row" style="margin-top: 25px">
+			<div class="col-md-12">
+				<label>人工理赔结果：</label>
+				<select name="result">
+					<option value="6" selected="selected">理赔通过</option>
+					<option value="4">理赔未通过</option>
+				</select>
+			</div>
+		</div>
+		<div class="row" style="margin-top: 25px">
+			<div class="col-md-12">
+				<label>人工核保结果：</label>
+				<textarea style="width: 100%; height: 400px; border: 1px solid black" id="checkResult"></textarea>
+			</div>
+		</div>
+	</div>
+
+	<a class="button button-3d button-royal"
+		style="margin: 50px 20% 50px 0; float: right;" id="sub">确认核保</a>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>注册</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/login.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-button.css" />
+    <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/filter.js"></script>
+    <style type="text/css">
+    html {
+        height: 100%;
+    }
+
+    body {
+        text-align: center;
+        background: #F7FAFC;
+        overflow: auto;
+        background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    }
+    </style>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/index">主页</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/buy">保险</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/information">个人主页</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/login">登陆/登出</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="position: absolute;margin:0 auto;height: 100%;width: 100%">
+        <div class="container">
+            <h1>欢迎登录</h1>
+            <form class="form" id="regForm">
+                <input id="inputName" type="text" placeholder="用户名" name="username" />
+                <label style="width:100px;display:none" id="configure"></label>
+                <input id="inputPsd" type="password" placeholder="密码" name="password" />
+                <input id="inputPsd2" type="password" placeholder="再次确认密码" name="password2" />
+                <a class="button button-royal" style="width:250px;color:#53e3a6;background:white" id="regButton">注册</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

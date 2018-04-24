@@ -1,0 +1,42 @@
+/*nab-bar*/
+
+.nav-pills>li+li {
+    margin-left: 0px !important;
+}
+
+.nav-pills>li>a {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+dt,
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    color: #f63;
+    font-size: 25px;
+}
+
+li {
+    text-align: left;
+}
+
+#klm {
+    font-size: 18px;
+}
+
+#baojia {
+    text-align: right;
+    color: #f63;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#zuo {
+    background: #f2f6f9;
+    width: 200px
+}

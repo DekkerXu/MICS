@@ -1,0 +1,492 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-weight: 300;
+    height: 100%
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+blockquote,
+th,
+td,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+dd {
+    line-height: 2rem !important;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+/*nab-bar*/
+
+.nav-pills>li+li {
+    margin-left: 0px !important;
+}
+
+.nav-pills>li>a {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/*banner*/
+
+.banner {
+    height: 375px;
+}
+
+.banner>.container,
+.banner>.container>.row,
+.banner>.container>.row>.col-md-12,
+.banner>.container>.row>.col-md-12>div {
+    height: 100% !important;
+}
+
+
+/*tab*/
+
+.page_Tab_title {
+    width: 100%;
+    height: 139px;
+    background: #fff;
+    position: absolute;
+    z-index: 5;
+}
+
+.page_Tab {
+    width: 100%;
+    height: 59px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.page_Tab_nav {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.page_Tab_nav li.cut {
+    border: 1px solid #ddd;
+    border-top: 3px solid #f63;
+    border-bottom: 1px solid #fff;
+}
+
+.page_Tab_nav li {
+    display: inline-block;
+    float: left;
+    height: 56px;
+    padding: 0 25px;
+    border: 1px solid #fff;
+    border-top: 3px solid #ffffff;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: -1px;
+    cursor: pointer;
+    font: 18px/56px "Microsoft Yahei", SimSun;
+}
+
+.pro-name {
+    width: 1000px;
+    height: 79px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.pro-price {
+    padding-top: 15px;
+}
+
+.pro-price .proPrice_btn {
+    width: 153px;
+    height: 43px;
+    border-radius: 5px;
+    background: #ff6633;
+    font: 21px/43px "Microsoft Yahei", SimSun;
+    color: #fff;
+    text-align: center;
+}
+
+.por {
+    position: relative;
+}
+
+.fr {
+    float: right;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.ertong_bottom {
+    width: 780px;
+    padding-top: 20px;
+}
+
+.pro_det_con_tips {
+    position: relative;
+}
+
+.pro_det_con_tips {
+    line-height: 24px;
+    padding-bottom: 7px;
+}
+
+.mr30 {
+    margin-right: 60px;
+}
+
+.pro_det_con_tips {
+    line-height: 24px;
+    padding-bottom: 7px;
+}
+
+
+/*tab-page-content*/
+
+.page_Tab_title_stay {
+    height: 139px;
+}
+
+.page-width {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bz-table {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.bz-table .jiayouernv-tab thead {
+    border-left: 2px solid #ec9874;
+    border-right: 2px solid #ec9874;
+}
+
+.bz-table .jiayouernv-tab thead th {
+    background-color: #ec9874;
+    text-align: center;
+}
+
+.bz-table thead th {
+    height: 52px;
+    line-height: 52px;
+    color: #ffffff;
+    font-size: 21px;
+    font-family: 'microsoft yahei';
+    font-weight: 400;
+}
+
+.bz-table .jiayouernv-tab thead th.thbl {
+    border-left: 2px solid #ffffff;
+    text-align: center;
+}
+
+.bz-table tbody {
+    width: 996px;
+    border: 2px solid #dadada;
+    border-top: 0px;
+}
+
+.bz-table .jiayouernv-tab tbody td.tdb0 {
+    text-align: center;
+}
+
+.bz-table .jiayouernv-tab tbody td.tdbl {
+    border-left: 0;
+    text-align: center;
+}
+
+.bz-table .jiayouernv-tab tbody td.tdb2 {
+    line-height: 20px;
+    padding: 20px 0;
+    padding-left: 2px;
+}
+
+
+/*question*/
+
+.bz-question {
+    height: 70px; // padding: 20px 0 20px 0;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.bz-question .service {
+    height: 48px;
+    width: 145px;
+    padding-left: 60px;
+    background-position: 0 -109px;
+    line-height: 48px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'microsoft yahei';
+}
+
+.fl {
+    float: left;
+}
+
+.bz-question-title h2 {
+    padding-top: 12px;
+    height: 17px;
+    font-size: 17px;
+    font-family: 'microsoft yahei';
+}
+
+.bz-question-title h2 span {
+    position: relative;
+    z-index: 3;
+}
+
+.bz-question-title h2 span em {
+    display: block;
+    width: 32px;
+    height: 15px;
+    background-position: 0 -60px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+}
+
+.bz-question-title h2 a {
+    font-size: 12px;
+    color: #2e84ca;
+    font-family: '宋体';
+    font-weight: normal;
+}
+
+
+/*reminder*/
+
+.ertong_title {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.title_dd {
+    margin-top: 5px;
+}
+
+.ertong_title dl {
+    text-align: left;
+}
+
+
+/*notice*/
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.h_item {
+    height: 43px;
+    line-height: 43px;
+    font-size: 18px;
+    color: #474747;
+    font-family: "Microsoft Yahei";
+    border-left: 5px #f63 solid;
+    padding-left: 15px;
+    background: #f3f3f3;
+    text-align: left;
+}
+
+.pro_det_box2 {
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.fwb {
+    font-weight: bold;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.notice_c1 {
+    width: 716px;
+}
+
+.notice_c_temp {
+    background-color: #edf8da;
+    height: 70px;
+}
+
+.notice_c_temp .num_bg {
+    width: 44px;
+    height: 70px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 70px;
+}
+
+.notice_c_temp .item_temp {
+    padding-left: 30px;
+}
+
+.notice_c_temp .item_temp,
+.notice_c_temp .item_temp2 {
+    line-height: 70px;
+    font-family: "Microsoft Yahei";
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.notice_c_temp li {
+    float: left;
+}
+
+.first_num {
+    background-position: 0 -134px;
+}
+
+.notice_c_temp .last_bg {
+    float: right;
+    width: 4px;
+    height: 70px;
+    background-position: -88px -134px;
+}
+
+.usual_num {
+    background-position: -44px -134px;
+}
+
+.b_t1d_b5b5b5 {
+    font-size: 12px;
+    text-align: left;
+    border-top: 1px dashed #b5b5b5;
+}
+
+
+/*Health notice*/
+
+.faqCont_ertong {
+    padding: 0;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+/*Claims Guide */
+
+.pro_det_con1 {
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+}
+
+.dl_zhinan {
+    display: inline-block;
+    float: left;
+    width: 319px;
+    padding: 7px 0 0;
+}
+
+.icon_sp {
+    display: inline-block;
+    background: url(../image/icon_sp.png) no-repeat;
+}
+
+.easy {
+    background-position: -150px 0;
+}
+
+.dl_zhinan dt {
+    margin: 0 85px 0;
+    display: inline-block;
+    width: 149px;
+    height: 149px;
+}
+
+.dl_zhinan dd {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.dl_zhinan dd .txt1 {
+    font-size: 18px;
+    color: #666;
+    line-height: 30px;
+    font-family: "Microsoft Yahei";
+}
+
+.dl_zhinan dd .txt2 {
+    font-size: 14px;
+    color: #666;
+}

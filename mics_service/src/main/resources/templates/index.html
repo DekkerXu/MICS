@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>主页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <style type="text/css">
+    body {
+        text-align: center;
+        background: #F7FAFC;
+        overflow: auto;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/index">主页</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/buy">保险</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/information">个人主页</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/login">登陆/登出</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <ul class="pro_li">
+            <li>
+                保险品种1
+                <div class="pro_content">
+                    <ul style="list-style: none;">
+                        <li><a href="/buy">保险品种1</a></li>
+                        <li>保险品种2</li>
+                        <li>保险品种3</li>
+                        <li>保险品种4</li>
+                    </ul>
+                </div>
+            </li>
+            <li>保险品种2</li>
+            <li>保险品种3</li>
+            <li>保险品种4</li>
+            <li>保险品种5</li>
+        </ul>
+    </section>
+    <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".pro_li>li").hover(function() {
+            $(this).children().css({ 'display': 'block' })
+        }, function() {
+            $(this).children().css({ 'display': 'none' })
+        })
+    })
+    </script>
+</body>
+
+</html>

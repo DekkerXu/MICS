@@ -1,0 +1,72 @@
+/*nab-bar*/
+
+.nav-pills>li+li {
+    margin-left: 0px !important;
+}
+
+.nav-pills>li>a {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#zuo {
+    background: #f2f6f9;
+    width: 200px
+}
+
+#item2 span {
+    /*padding-left: 27px*/
+    margin: 20px 5px 5px 27px;
+}
+
+#item2 select,
+input {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#tong {
+    margin: 20px 5px 5px 27px;
+}
+
+#button {
+    margin: 20px 5px 5px 27px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 22px;
+    background: #6cbc6c;
+    border-bottom: 3px solid #5b975b;
+    display: inline-block;
+    height: 33px;
+    line-height: 3
+}
+
+#last {
+    margin-left: 60px
+}
+
+#button1 {
+    width: 180px;
+    margin-left: 880px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    background: #ff6634;
+    border-bottom: 3px solid #dc3a02;
+    font-size: 18px;
+    margin-top: 50px;
+    height: 39px;
+    line-height: 39px;
+    display: block;
+}
+
+#baojia1 {
+    margin-left: 50px font-weight:30 color:#f63;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    margin: -5px 0 0 -20px !important;
+}

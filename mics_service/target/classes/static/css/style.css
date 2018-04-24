@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100% !important;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-weight: 300;
+    height: 100% !important;
+}
+
+
+/*nab-bar*/
+
+.nav-pills>li+li {
+    margin-left: 0px !important;
+}
+
+.nav-pills>li>a {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background: url(../images/ti.jpg);
+    background-size: cover;
+}
+
+.banner .pro_li {
+    float: left;
+    text-align: left;
+    height: 500px;
+    width: 230px;
+    background-color: #fafafa;
+    opacity: 0.8;
+}
+
+.banner .pro_li li {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.pro_content {
+    width: 400px;
+    float: left;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -100px;
+    display: none;
+    background-color: #fafafa;
+}

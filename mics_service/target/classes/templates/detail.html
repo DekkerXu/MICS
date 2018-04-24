@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>保险详情</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/detail.css" />
+    <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/detail.js"></script>
+    <style type="text/css">
+    body {
+        text-align: center;
+        background: #F7FAFC;
+        height: 100%;
+        overflow: auto;
+        background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    }
+
+    html {
+        height: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="col-sm-3 abled"><a href="/index">主页</a></li>
+                        <li role="presentation" class="col-sm-3 abled"><a href="/buy">保险</a></li>
+                        <li role="presentation" class="col-sm-3 abled"><a href="/information">个人主页</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled"><a href="/login">登陆/登出</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th class="col-md-3">项目</th>
+                                <th class="col-md-9">内容</th>
+                            </tr>
+                        </thead>
+                        <tbody style="border:1px solid">
+                            <tr>
+                                <td>
+                                    <text style="font-size: 40px ">1.</text>
+                                    <text style="font-size: 30px">报价明细</text>
+                                </td>
+                                <td id="sedTd">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    <label style="color: #f63"><strong>保障范围：</strong></label>
+                                                </th>
+                                                <th>
+                                                    <label style="color: #f63"><strong>保障类型：</strong></label>
+                                                </th>
+                                                <th>
+                                                    <label style="color: #f63"><strong>赔偿金额：</strong></label>
+                                                </th>
+                                                <th>
+                                                    <label style="color: #f63"><strong>有效时间：</strong></label>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="detailList">
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <text style="font-size: 40px ">2.</text>
+                                    <text style="font-size: 30px">报价明细</text>
+                                </td>
+                                <td style="text-align:left">
+                                    <label style="font-size: 20px;width: 140px;text-align:right">保险期限：</label>
+                                    <span id="startDate"></span>到
+                                    <span id="endDate"></span>
+                                    <br />
+                                    <label style="font-size: 20px;width: 140px;text-align:right;padding-right:13px">保&emsp;&emsp;价:</label><span style="font-size: 20px" id="value"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <text style="font-size: 30px ">3.投保人信息</text>
+                                </td>
+                                <td style="text-align:left" id="firstInfo">
+                                    <label>姓&emsp;&emsp;名：</label>
+                                    <span id="name"></span>
+                                    <br />
+                                    <br />
+                                    <label>证件类型：</label>
+                                    <span id="certifiType"></span>
+                                    <br />
+                                    <br />
+                                    <label>证件号码：</label>
+                                    <span id="certifiNumber"></span>
+                                    <br />
+                                    <br />
+                                    <label>性&emsp;&emsp;别：</label>
+                                    <span id="sex"></span>
+                                    <br />
+                                    <br />
+                                    <label>出生日期：</label>
+                                    <span id="birthday"></span>
+                                    <br />
+                                    <br />
+                                    <label>手机号码：</label>
+                                    <span id="phoneNumber"></span>
+                                    <br />
+                                    <br />
+                                    <label>电子邮件：</label>
+                                    <span id="email"></span>
+                                    <br />
+                                    <br />
+                                    <label>常住城市：</label>
+                                    <span id="city"></span>
+                                    <br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <text style="font-size: 30px">4.被保人信息</text>
+                                </td>
+                                <td style="text-align:left" id="secondInfo">
+                                    <label>姓&emsp;&emsp;名：</label>
+                                    <span id="orderedName"></span>
+                                    <br />
+                                    <br />
+                                    <label>与投保人关系：</label>
+                                    <span id="relationship"></span>
+                                    <br />
+                                    <br />
+                                    <label>证件类型：</label>
+                                    <span id="certifiType2"></span>
+                                    <br />
+                                    <br />
+                                    <label>证件信息：</label>
+                                    <span id="certifiNumber2"></span>
+                                    <br />
+                                    <br />
+                                    <label>出生日期：</label>
+                                    <span id="birthday2"></span>
+                                    <br />
+                                    <br />
+                                    <label>性&emsp;&emsp;别：</label>
+                                    <span id="sex2"></span>
+                                    <br />
+                                    <br />
+                                    <label>手机号码：</label>
+                                    <span id="phoneNumber2"></span>
+                                    <br />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button_group">
+                        <a class="btn btn-primary" style="margin-left: 50px;margin-top: -3px;" href="/information">个人中心</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

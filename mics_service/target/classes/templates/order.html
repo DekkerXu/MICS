@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>自定义订单</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/order.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-datepicker3.min.css" />
+    <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-datepicker.js"></script>
+    <style type="text/css">
+    .baojia-form-date-infor .pa_ui_dropselect_popup {
+        position: absolute;
+        z-index: 999;
+        background: white;
+        max-height: 250px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    #ageWrap .ageType {
+        cursor: pointer
+    }
+
+    .baojia-form-date-infor {
+        margin: 0
+    }
+    </style>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/index">主页</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/buy">保险</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/information">个人主页</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/login">登陆/登出</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-wrapper">
+        <div class="main-area c">
+            <!--左侧内容-->
+            <div class="main-area-left">
+                <div class="baojia-wrap">
+                    <h2 class="product-tit c">
+                        <span class="fl" id="productNameHeader">一年期综合意外险</span>
+                        <span class="product-tit-tips product-offer-wrap"></span>
+                    </h2>
+                    <div class="bb_s10_a3a7af" id="main_content">
+                        <div>
+                            <span class="fr dsn mr20" id="policeWrap">上年保单号:<a id="policeUrl"  class="f_c_f63"></a></span>
+                        </div>
+                        <div class="article-main">
+                            <div class="baojia-step-area">
+                                <div class="baojia-form-area">
+                                    <form id="baojia-form">
+                                        <h5 class="baojia-form-tit">填写被保人信息
+                                                <small style="color: #666;font-size: 12px;font-family: 宋体; margin: 0 0 0 20px;">（保费会根据被保人年龄和职业而不同）</small>
+                                            </h5>
+                                        <ul class="baojia-form-date-infor pa_ui_element_normal" id="baojia-form-date-info">
+                                            <li class="c">
+                                                <p class="baojia-form-date-infor-label">保险起期：</p>
+                                                <!-- <div class="baojia-form-date-infor-input-area">
+                                                        <input id="beginDate" name="beginDate" type="text" class="js-date date_input w130" otitle="保险起期" otype="button" readonly="readonly">
+                                                        <span class="datepicker-button" id="1514876614878"></span>
+                                                    </div> -->
+                                                <div class="row">
+                                                    <div class='col-sm-6' id="data-picker">
+                                                        <div class="form-group">
+                                                            <div class='input-group date' id='datetimepicker1' style="width:300px">
+                                                                <input type='text' class="form-control" name="date" />
+                                                                <span class="input-group-addon">  
+                                                                        <span class="glyphicon glyphicon-calendar"></span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <th width="177" class="ensureStyle bl_s1_efe3be package-style package-selected" planclassidx="0"></th>
+                                            </li>
+                                            <li class="c">
+                                                <p class="baojia-form-date-infor-label">被保人：</p>
+                                                <div>
+                                                    <select class="form-control" style="width: 100px" name="ageType">
+                                                        <option value="成年人">成年人</option>
+                                                        <option value="未成年人">未成年人</option>
+                                                    </select>
+                                                    <!-- <dd id="ageWrap">
+
+                                                            <button type="button" radioname="ageType" title="成年人" value="01" class="ageType ageType_current">成年人</button>
+                                                            <button type="button" radioname="ageType" title="未成年人" value="00" class="ageType">未成年人
+                                                                <span class="f_c_999">(&lt;18岁)</span>
+                                                            </button>
+                                                        </dd> -->
+                                                </div>
+                                            </li>
+                                            <!--被保人人数-->
+                                            <li class="c insurantNum-wrap">
+                                                <p class="baojia-form-date-infor-label">人数：</p>
+                                                <div class="baojia-form-date-infor-input-area">
+                                                    <div class="ui-select-wrap">
+                                                        <select class="form-control" name="personCount">
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option>4</option>
+                                                            <option>5</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="fl lh30 pl10 mt5 dsn" id="insurant-tips">
+                                                    <span class="question-icon-ts" style="font-size:12px; color:#999;">为多人购买时，其从事职业需要保持一致！</span>
+                                                </div>
+                                            </li>
+                                            <!--被保人人数-->
+                                            <li class="c insurantNum-wrap">
+                                                <p class="baojia-form-date-infor-label">从事职业：</p>
+                                                <div class="baojia-form-date-infor-input-area">
+                                                    <div class="ui-select-wrap">
+                                                        <input placeholder="请填写职业" style="width:300px;border-radius:4px" />
+                                                    </div>
+                                                </div>
+                                                <div class="fl lh30 pl10 mt5 dsn" id="insurant-tips">
+                                                    <span class="question-icon-ts" style="font-size:12px; color:#999;">为多人购买时，其从事职业需要保持一致！</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <table border="0" cellpadding="0" cellspacing="0" class="baojia-package-tab mt10" id="baojia-package-tab">
+                                            <thead class="first-head">
+                                                <tr>
+                                                    <th width="160" class="ensureType">保障类型</th>
+                                                    <th width="143" class="tal ensureRange package-right-sel">保障范围</th>
+                                                    <th width="177" class="ensureStyle bl_s1_efe3be package-style package-selected" planclassidx="0">
+                                                        <div>
+                                                            <h5>自定义报价</h5>
+                                                        </div>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- 意外身故、残疾  开始-->
+                                                <tr class="othre-tr">
+                                                    <th class="ensureType" rowspan="2">
+                                                        <div>
+                                                            <a title="一般意外" name="kind1">一般意外</a>
+                                                        </div>
+                                                    </th>
+                                                    <td class="tal ensureRange br_s1_f63 package-right-sel ">
+                                                        <div class="posr " style="z-index: 0; ">
+                                                            <a class="ch f14 f_c_666 bzInfor-name " name="range1">意外身故、伤残</a>
+                                                            <span class="top-arrow dsn "></span>
+                                                            <div class="bzInfor-area dsn ">
+                                                                <h6 class="bzInfor-area-tit "></h6>
+                                                                <p class="bzInfor-area-txt ">在保险期间内，被保险人不幸遭受意外事故导致身故或伤残，我们按条款给付意外身故/伤残保险金。</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ensureStyle package-selected " planclassidx="0 ">
+                                                        <div class="ui-select-wrap noFour " id="adultBox ">
+                                                            <select class="form-control " style="width: 100px;margin: 0 auto " name="customQuotation1">
+                                                                <option value="50000 " selected="selected ">5万元</option>
+                                                                <option value="100000 ">10万元</option>
+                                                                <option value="200000 ">20万元</option>
+                                                                <option value="300000 ">30万元</option>
+                                                                <option value="400000 ">40万元</option>
+                                                                <option value="500000 ">50万元</option>
+                                                            </select>
+                                                            <!-- <div class="pa_ui_dropselect " style="width: 100px; "><div class="pa_ui_dropselect_inner paui-clearfix "><span class="pa_ui_dropselect_input_Container " style="width: 82px; "><input type="text " class="pa_ui_dropselect_input " readonly="readonly " otitle="意外身故、伤残 " style="width: 82px; "></span><span class="pa_ui_dropselect_button " otitle="意外身故、伤残 "><b></b></span></div></div><div class="pa_ui_dropselect_popup mycustom " style="display: none; width: 100px; "><div class="pa_ui_dropselect_box "><ul class=" "><li t="5万元 " v="50000 " class=" pa_ui_dropselect_item "><a href="javascript:void(0); " title="5万元 " class="pa_ui_dropselect_item_link ">5万元</a></li><li t="10万元 " v="100000 " class=" pa_ui_dropselect_item "><a href="javascript:void(0); " title="10万元 " class="pa_ui_dropselect_item_link ">10万元</a></li><li t="20万元 " v="200000 " class=" pa_ui_dropselect_item "><a href="javascript:void(0); " title="20万元 " class="pa_ui_dropselect_item_link ">20万元</a></li><li t="30万元 " v="300000 " class=" pa_ui_dropselect_item "><a href="javascript:void(0); " title="30万元 " class="pa_ui_dropselect_item_link ">30万元</a></li><li t="40万元 " v="400000 " class=" pa_ui_dropselect_item "><a href="javascript:void(0); " title="40万元 " class="pa_ui_dropselect_item_link ">40万元</a></li><li t="50万元 " v="500000 " class=" pa_ui_dropselect_item "><a href="javascript:void(0); " title="50万元 " class="pa_ui_dropselect_item_link ">50万元</a></li></ul></div></div> -->
+                                                        </div>
+                                                        <div class="ui-select-wrap dsn " id="childBox " style="display: none;">
+                                                            <select>
+                                                                <option value="50000 ">5万元</option>
+                                                                <option value="100000 ">10万元</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- 意外身故、残疾  结束-->
+                                                <!-- 意外医疗  开始-->
+                                                <tr class="othre-tr ">
+                                                    <td class="tal ensureRange br_s1_f63 package-right-sel ">
+                                                        <div class="posr " style="z-index: 0; ">
+                                                            <a class="ch f14 f_c_666 bzInfor-name " style="color: rgb(102, 102, 102); " name="range2">意外医疗</a>
+                                                            <span class="top-arrow dsn " style="display: none; "></span>
+                                                            <div class="bzInfor-area dsn " style="display: none; ">
+                                                                <h6 class="bzInfor-area-tit "></h6>
+                                                                <p class="bzInfor-area-txt ">因意外伤害事故需门诊或住院治疗，发生的医疗费用，我们将就其事故发生之日起180日内实际支出的按照当地社会医疗保险主管部门规定可报销的、必要的、合理的医疗费用超过人民币100元的部分给付医疗保险金。</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ensureStyle package-selected " planclassidx="0">
+                                                        <div class="ui-select-wrap noFour ">
+                                                            <select class="form-control " style="width: 100px;margin: 0 auto " name="customQuotation2">
+                                                                <option value="0 " selected="selected ">不投保</option>
+                                                                <option value="2000 ">2000元</option>
+                                                                <option value="5000 ">5000元</option>
+                                                                <option value="10000 ">1万元</option>
+                                                                <option value="20000 ">2万元</option>
+                                                                <option value="50000">5万元</option>
+                                                                <option value="100000">10万元</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- 意外医疗  结束-->
+                                                <!-- 误工津贴  开始-->
+                                                <tr class="othre-tr" tips="">
+                                                    <th class="ensureType" rowspan="2">
+                                                        <div>
+                                                            <a url="bzfw2.shtml" title="津贴及车费 承保范围" otype="button" otitle="津贴及车费 承保范围" class="ch ano_2e84ca question-icon-jtjcf js-dialog ensureTypeRangeBtn" name="kind3">津贴及车费</a>
+                                                        </div>
+                                                    </th>
+                                                    <td class="tal ensureRange br_s1_f63 package-right-sel">
+                                                        <div class="posr" style="z-index: 0;">
+                                                            <a class="ch f14 f_c_666 bzInfor-name" style="color: rgb(102, 102, 102);" name="range3">住院误工津贴</a>
+                                                            <span class="top-arrow dsn" style="display: none;"></span>
+                                                            <div class="bzInfor-area dsn" style="display: none;">
+                                                                <h6 class="bzInfor-area-tit"></h6>
+                                                                <p class="bzInfor-area-txt">因意外伤害事 故入院治疗，我们按照保险单载明的住院误工津贴日额给付，累计给付天数以90天为限。</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ensureStyle package-selected" id="allowanceBox" planclassidx="0">
+                                                        <!--默认显示这个-->
+                                                        <div class="ui-select-wrap adultBox" style="display: block;">
+                                                            <select class="form-control" style="width: 100px;margin: 0 auto" name="customQuotation3">
+                                                                <option value="0" selected="selected">不投保</option>
+                                                                <option value="20">20元/天</option>
+                                                                <option value="50">50元/天</option>
+                                                                <option value="100">100元/天</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- 误工津贴  结束-->
+                                                <!-- 救护车费用报销  开始-->
+                                                <tr class="othre-tr" tips="">
+                                                    <td class="tal ensureRange br_s1_f63 package-right-sel">
+                                                        <div class="posr" style="z-index: 0;">
+                                                            <a class="ch f14 f_c_666 bzInfor-name" name="range4">救护车费用报销</a>
+                                                            <span class="top-arrow dsn"></span>
+                                                            <div class="bzInfor-area dsn">
+                                                                <h6 class="bzInfor-area-tit"></h6>
+                                                                <p class="bzInfor-area-txt">因意外伤害事故实际支付的救护车车费，我们将给付救护车车费保险金，以2000元为限。</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ensureStyle package-selected" planclassidx="0">
+                                                        <div class="ui-select-wrap">
+                                                            <select class="form-control" style="width: 100px;margin: 0 auto" name="customQuotation4">
+                                                                <option value="0">不投保</option>
+                                                                <option value="2000">2000元</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- 救护车费用报销  结束-->
+                                                <!-- 飞机意外身故、伤残  开始-->
+                                                <tr class="othre-tr" tips="">
+                                                    <th class="ensureType" rowspan="4">
+                                                        <div>
+                                                            <a url="bzfw3.shtml" title="交通意外 承保范围" otype="button" otitle="交通意外 承保范围" class="ch ano_2e84ca question-icon js-dialog ensureTypeRangeBtn" name="kind5">交通意外</a>
+                                                        </div>
+                                                    </th>
+                                                    <td class="tal ensureRange br_s1_f63 package-right-sel">
+                                                        <div class="posr" style="z-index: 0;">
+                                                            <a class="ch f14 f_c_666 bzInfor-name" name="range5">飞机意外身故、伤残</a>
+                                                            <span class="top-arrow dsn"></span>
+                                                            <div class="bzInfor-area dsn">
+                                                                <h6 class="bzInfor-area-tit"></h6>
+                                                                <p class="bzInfor-area-txt">被保险人以乘客身份乘坐民航客机期间不幸遭受意外伤害事故导致身故或伤残的，我们将赔偿意外身故保险金或意外残疾保险金。和意外身故、伤残累计赔付。</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ensureStyle package-selected" planclassidx="0">
+                                                        <div class="ui-select-wrap">
+                                                            <select class="form-control" style="width: 100px;margin: 0 auto" name="customQuotation5">
+                                                                <option value="0">不投保</option>
+                                                                <option value="500000">50万元</option>
+                                                                <option value="1000000">100万元</option>
+                                                                <option value="2000000">200万元</option>
+                                                                <option value="3000000">300万元</option>
+                                                                <option value="5000000">500万元</option>
+                                                                <option value="8000000">800万元</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- 飞机意外身故、伤残  结束-->
+                                                <!-- 火车意外身故、伤残  开始-->
+                                                <tr class="othre-tr" tips="">
+                                                    <td class="tal ensureRange br_s1_f63 package-right-sel">
+                                                        <div class="posr" style="z-index: 0;">
+                                                            <a class="ch f14 f_c_666 bzInfor-name" name="range6">火车意外身故、伤残</a>
+                                                            <span class="top-arrow dsn"></span>
+                                                            <div class="bzInfor-area dsn">
+                                                                <h6 class="bzInfor-area-tit"></h6>
+                                                                <p class="bzInfor-area-txt">被保险人以乘客身份乘坐商业营运的火车（含高铁、地铁）期间不幸遭受意外伤害事故导致身故或伤残的，我们将赔偿意外身故保险金或意外残疾保险金。和意外身故、伤残累计赔付。</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ensureStyle package-selected" planclassidx="0">
+                                                        <div class="ui-select-wrap childTen">
+                                                            <select class="form-control" style="width: 100px;margin: 0 auto" name="customQuotation6">
+                                                                <option value="0">不投保</option>
+                                                                <option value="100000">10万元</option>
+                                                                <option value="200000">20万元</option>
+                                                                <option value="300000">30万元</option>
+                                                                <option value="500000">50万元</option>
+                                                                <option value="1000000">100万元</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- 火车意外身故、伤残  结束-->
+                                                <!-- 轮船意外身故、伤残  开始-->
+                                                <tr class="othre-tr" tips="">
+                                                    <td class="tal ensureRange br_s1_f63 package-right-sel">
+                                                        <div class="posr" style="z-index: 0;">
+                                                            <a class="ch f14 f_c_666 bzInfor-name" name="range7">轮船意外身故、伤残</a>
+                                                            <span class="top-arrow dsn"></span>
+                                                            <div class="bzInfor-area dsn">
+                                                                <h6 class="bzInfor-area-tit"></h6>
+                                                                <p class="bzInfor-area-txt">被保险人以乘客身份乘坐商业营运的轮船期间不幸遭受意外伤害事故导致身故或伤残的，我们将赔偿意外身故保险金或意外残疾保险金。和意外身故、伤残累计赔付。</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ensureStyle package-selected" planclassidx="0">
+                                                        <div class="ui-select-wrap childTen">
+                                                            <select class="form-control" style="width: 100px;margin: 0 auto" name="customQuotation7">
+                                                                <option value="0">不投保</option>
+                                                                <option value="100000">10万元</option>
+                                                                <option value="200000">20万元</option>
+                                                                <option value="300000">30万元</option>
+                                                                <option value="500000">50万元</option>
+                                                                <option value="1000000">100万元</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- 轮船意外身故、伤残  结束-->
+                                                <!-- 汽车意外身故、伤残  开始-->
+                                                <tr class="othre-tr" tips="">
+                                                    <td class="tal ensureRange br_s1_f63 package-right-sel">
+                                                        <div class="posr" style="z-index: 0;">
+                                                            <a class="ch f14 f_c_666 bzInfor-name" name="range8">汽车意外身故、伤残</a>
+                                                            <span class="top-arrow dsn"></span>
+                                                            <div class="bzInfor-area dsn">
+                                                                <h6 class="bzInfor-area-tit"></h6>
+                                                                <p class="bzInfor-area-txt">被保险人以乘客身份乘坐商业营运的汽车（含公交、出租车）期间不幸遭受意外伤害事故导致身故或残疾的，我们将按照条款给付保险金。和意外身故、伤残累计赔付。</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ensureStyle package-selected" planclassidx="0">
+                                                        <div class="ui-select-wrap childTen">
+                                                            <select class="form-control" style="width: 100px;margin: 0 auto" name="customQuotation8">
+                                                                <option value="0">不投保</option>
+                                                                <option value="50000">5万元</option>
+                                                                <option value="100000">10万元</option>
+                                                                <option value="200000">20万元</option>
+                                                                <option value="300000">30万元</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- 汽车意外身故、伤残  结束-->
+                                            </tbody>
+                                            <thead class="last-thead">
+                                                <tr id="discountTrWrap">
+                                                    <th class="ensureType">&nbsp;</th>
+                                                    <th class="ensureRange package-right-sel">&nbsp;</th>
+                                                    <th class="ensureStyle package-style bbc_efe3be bl_s1_efe3be package-selected" planclassidx="0">
+                                                        <div class="youhui-rel-wrap dsn" style="display: none;">
+                                                            <div class="baojia-amount-wrap">
+                                                                <div class="c">
+                                                                    <div class="baojia-amount-text">原价：</div>
+                                                                    <div class="baojia-amount-text-price">
+                                                                        <span class="originalPremium">227.5</span>元
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mt5 f_c_2e84ca c posr" style="z-index: 0;">
+                                                                    <div class="baojia-amount-text">
+                                                                        <span class="red-disc-icon-new youhui-imgbtn">0</span>
+                                                                        <span class="">优惠：</span>
+                                                                        <span class="top-arrow-left youhui-arrow dsn"></span>
+                                                                        <div class="bzInfor-area-left youhui-detail-wrap dsn">
+                                                                            <p class="dsn youhuied-price-wrap">
+                                                                                已享受团购价<span class="youhuied-price">0</span>元
+                                                                            </p>
+                                                                            <p class="dsn hongbao-price-wrap">
+                                                                                已用红包抵扣了<span class="hongbao-price">0</span>元
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="baojia-amount-text-price">
+                                                                        <span class="youhui-total-price">0</span>元
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p class="ensureStyle_perAmount c dsn" style="display: block;margin: 0;font-size:14px">
+                                                            <span class="amountByDay">0.12</span>元/人天 起
+                                                        </p>
+                                                    </th>
+                                                </tr>
+                                                <tr id="actualPremiumTrWrap">
+                                                    <th class="bt0 ensureType">&nbsp;</th>
+                                                    <th class="bt0 ensureRange package-right-sel">&nbsp;</th>
+                                                    <th valign="top" class="ensureStyle package-style bl_s1_efe3be package-selected" planclassidx="0">
+                                                        <p class="f_c_f63 lh21" style="margin:0">
+                                                            <span class="youhui-rel-wrap dsn" style="display: none;">实付</span>
+                                                            <output id="total" class="f24 userPremium" name="total">43.8</output>元
+                                                        </p>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                        <!--续保-->
+                                        <div id="quoteFooterBox">
+                                            <p class="mt30 tar" id="chooseActualPremiumWrap">
+                                                <span class="f20 f_c_f63" id="chooseActualPremium_text">保费：</span>
+                                                <output class="f_c_f63 f34" id="chooseActualPremium" name="totalValue">43.8</output>元
+                                            </p>
+                                        </div>
+                                        <p class="mt30 c">
+                                            <a id="nextBtn" class="ch orange-btn-w164 fr">
+                                                    立即购买
+                                            </a>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--左侧内容-->
+        </div>
+    </section>
+    <script>
+    $(function() {
+        $('#datetimepicker1').datepicker({
+            format: 'yyyy/mm/dd',
+            locale: moment.locale('zh-cn'),
+            autoclose: true,
+            todayBtn: true,
+        });
+    });
+    </script>
+    <script type="text/javascript" src="/js/get.js"></script>
+    <!-- <script type="text/javascript" src="./js/data.js"></script> -->
+</body>
+
+</html>

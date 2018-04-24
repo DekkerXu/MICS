@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>医疗详情</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/medicalDetail.css" />
+    <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/medicalDetail.js"></script>
+    <style type="text/css">
+    body {
+        text-align: center;
+        background: #F7FAFC;
+        height: 100%;
+        overflow: auto;
+        background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    }
+
+    html {
+        height: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="col-sm-3 abled"><a href="/index">主页</a></li>
+                        <li role="presentation" class="col-sm-3 abled"><a href="/buy">保险</a></li>
+                        <li role="presentation" class="col-sm-3 abled"><a href="/information">个人主页</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled"><a href="/login">登陆/登出</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10" style="margin:0 auto;float:none">
+                    <table class="table table-striped" style="border:1px solid">
+                        <thead>
+                            <tr>
+                                <th class="col-md-3">项目</th>
+                                <th class="col-md-9">内容</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <text style="font-size: 40px ">1.</text>
+                                    <text style="font-size: 30px">基本信息</text>
+                                </td>
+                                <td>
+                                    <table class="col-md-12" style="text-align:left">
+                                        <tr>
+                                            <td class="col-md-4">
+                                                <label>姓&emsp;&emsp;名：</label>
+                                                <span id="name"></span>
+                                            </td>
+                                            <td class="col-md-4">
+                                                <label>年&emsp;&emsp;龄：</label>
+                                                <span id="age"></span>
+                                            </td>
+                                            <td class="col-md-4">
+                                                <label>性&emsp;&emsp;别：</label>
+                                                <span id="sex"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4">
+                                                <label>证件类型：</label>
+                                                <span id="certifiType"></span>
+                                            </td>
+                                            <td class="col-md-4">
+                                                <label>证件号码：</label>
+                                                <span id="certifiNumber"></span>
+                                            </td>
+                                            <td class="col-md-4">
+                                                <label>科&emsp;&emsp;室：</label>
+                                                <span id="type"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4">
+                                                <label>种&emsp;&emsp;类：</label>
+                                                <span id="kind"></span>
+                                            </td>
+                                            <td class="col-md-4">
+                                                <label>范&emsp;&emsp;围：</label>
+                                                <span id="range"></span>
+                                            </td>
+                                            <td class="col-md-4">
+                                                <label>花&emsp;&emsp;费：</label>
+                                                <span id="payment"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4">
+                                                <label>是否住院：</label>
+                                                <span id="zhuyuan"></span>
+                                            </td>
+                                            <td class="col-md-4">
+                                                <label>就诊时间：</label>
+                                                <span id="visitTime"></span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <text style="font-size: 40px ">2.</text>
+                                    <text style="font-size: 30px">当前主诉</text>
+                                </td>
+                                <td class="col-md-12">
+                                    <span id="describe"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <text style="font-size: 40px ">3.</text>
+                                    <text style="font-size: 30px">现有病史</text>
+                                </td>
+                                <td class="col-md-12">
+                                    <span id="history"></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="button_group">
+                        <a class="btn btn-primary" style="margin-left: 50px;margin-top: -3px;" href="/information">个人中心</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

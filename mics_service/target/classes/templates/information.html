@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>个人主页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/information.css" />
+    <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/infor.js"></script>
+    <style type="text/css">
+    body {
+        text-align: center;
+        background: #F7FAFC;
+        overflow: auto;
+        background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    }
+
+    html {
+        height: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="col-sm-3 abled"><a href="/index">主页</a></li>
+                        <li role="presentation" class="c ol-sm-3 abled"><a href="/buy">保险</a></li>
+                        <li role="presentation" class="col-sm-3 abled"><a href="#">个人主页</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled"><a href="/login">登陆/登出</a></li>
+                    </ul>
+                </div>·
+            </div>
+        </div>
+    </section>
+    <form>
+        <div class="ui-select-wrap">
+            <select class="form-control" name="orderedName">
+                <option value="contract">保险查询</option>
+                <option value="medicalcare">医疗记录查询</option>
+                <option value="claim">理赔查询</option>
+            </select>
+        </div>
+        <input type="text" class="form-control" name="certifiNumber" placeholder="请输入身份证号码" style="width:150px;margin-left:15px;display:inline-block" />
+        <a class="btn btn-primary" style="margin-left: 50px;margin-top: -3px;" id="searchButton">查&#12288;&#12288;询</a>
+    </form>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-striped" style="margin-top:50px;border:1px solid;color:black">
+                        <thead>
+                            <tr id="list1">
+                                <td class="info">保险种类</td>
+                                <td class="active">被保人姓名</td>
+                                <td class="success">开始日期</td>
+                                <td class="warning">截止日期</td>
+                                <td class="active">医疗选择</td>
+                                <td class="danger">详情</td>
+                                <td class="success">申请理赔</td>
+                            </tr>
+                            <tr id="list2" style="display:none">
+                                <td class="active">姓名</td>
+                                <td class="success">诊断日期</td>
+                                <td class="danger">简述</td>
+                                <td class="success">详情</td>
+                            </tr>
+                            <tr id="list3" style="display:none">
+                                <td class="info">理赔单号</td>
+                                <td class="active">医疗单号</td>
+                                <td class="info">理赔状态</td>
+                                <td class="success">理赔信息</td>
+                                <td class="info">理赔复核</td>
+                            </tr>
+                        </thead>
+                        <tbody id="list">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

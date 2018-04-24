@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+<title>医疗数据</title>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta Http-Equiv="pragma" content="no-cache" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-datepicker3.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-button.css" />
+    <link rel="stylesheet" type="text/css" href="/css/medical.css" />
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-datepicker.js"></script>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="col-sm-3 abled">
+                            <a href="/hospitalLogout">退出</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2 style="text-align: center;color: #f63">电子病历</h2>
+    <div class="container">
+        <div class="col-md-12" style="height: auto;border: 1px solid #ccc">
+            <h4>个人信息</h4>
+            <form>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label>姓名：</label>
+                        <input type="text" name="patientName" id="patientName" />
+                        <span style="display:none;width:100px" id="inputName"></span>
+                    </div>
+                    <div class="col-md-4">
+                        <label>证件：</label>
+                        <select name="certifiType3">
+                            <option value="1" selected="selected">请选择</option>
+                            <option value="身份证">身份证</option>
+                            <option value="护照">护照</option>
+                            <option value="军官证">军官证</option>
+                            <option value="港澳回乡证或台胞证">港澳回乡证或台胞证</option>
+                            <option value="其他">其他</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label>证件号码：</label>
+                        <input name="certifiNumber3" type="text" id="certifiNumber3" />
+                        <span style="display:none;width:100px" id="inputcertifiNumber"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label>费用：</label>
+                        <input type="text" name="payment" />
+                    </div>
+                    <div class="col-md-4">
+                        <label>种类：</label>
+                        <select name="kind">
+                            <option value="一般意外" selected="selected">一般意外</option>
+                            <option value="津贴及车费">津贴及车费</option>
+                            <option value="交通意外">交通意外</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label>范&#12288;&#12288;围：</label>
+                        <select name="range">
+                            <option value="1" selected="selected">请选择</option>
+                            <option value="意外身故、伤残">意外身故、伤残</option>
+                            <option value="意外医疗">意外医疗</option>
+                            <option value="住院误工津贴">住院误工津贴</option>
+                            <option value="救护车费用报销">救护车费用报销</option>
+                            <option value="飞机意外身故、伤残">飞机意外身故、伤残</option>
+                            <option value="火车意外身故、伤残">火车意外身故、伤残</option>
+                            <option value="船舶意外身故、伤残">船舶意外身故、伤残</option>
+                            <option value="汽车意外身故、伤残">汽车意外身故、伤残</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label>年龄：</label>
+                        <input type="text" name="age" />
+                    </div>
+                    <div class="col-md-4">
+                        <label>性别：</label>
+                        <select name="sex">
+                            <option value="1" selected="selected">请选择</option>
+                            <option value="男">男</option>
+                            <option value="女">女</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label>是否住院：</label>
+                        <select name="zhuyuan">
+                            <option value="是" selected="selected">是</option>
+                            <option value="否">否</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label>科室：</label>
+                        <input type="text" name="type" />
+                    </div>
+                    <div class="col-md-4">
+                        <label>民族：</label>
+                        <input type="text" name="nation" />
+                    </div>
+                    <div class="col-md-4" id="datepicker">
+                        <label>就诊时间：</label>
+                        <input type="text" class="form-control" name="visitTime" />
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 25px">
+                    <div class="col-md-12">
+                        <label>主诉：</label>
+                        <textarea style="width: 100%;" name="miaoshu"></textarea>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 25px">
+                    <div class="col-md-12">
+                        <label>现有病史：</label>
+                        <textarea style="width: 100%;height: 400px" name="history"></textarea>
+                    </div>
+                </div>
+                <a class="button button-3d button-royal" id="subButton" style="margin:50px 20% 50px 0;float: right;">提交数据</a>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function() {
+        $('#datepicker input').datepicker({
+            format: 'yyyy/mm/dd',
+            locale: moment.locale('zh-cn'),
+            autoclose: true,
+            todayBtn: true,
+        });
+    });
+    </script>
+    <script type="text/javascript" src="/js/getValue3.js"></script>
+</body>
+
+</html>

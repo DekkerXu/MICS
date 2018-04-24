@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>理赔人员登录</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/information.css" />
+    <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/settlement.js"></script>
+    <style type="text/css">
+    body {
+        text-align: center;
+        background: #F7FAFC;
+        overflow: auto;
+        background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    }
+
+    html {
+        height: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="col-sm-3 abled"><a href="/settlementLogout">退出</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-striped" style="margin-top:50px;border:1px solid">
+                        <thead>
+                            <tr style="color:black">
+                                <td class="info">单号</td>
+                                <td class="active">投保人姓名</td>
+                                <td class="info">联系方式</td>
+                                <td class="active">医疗单号</td>
+                                <td class="warning">确认理赔</td>
+                            </tr>
+                        </thead>
+                        <tbody id="list">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

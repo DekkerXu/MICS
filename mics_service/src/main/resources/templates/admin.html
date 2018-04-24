@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>管理员</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/login.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/worker.js"></script>
+    <style type="text/css">
+    body {
+        hight: 100%;
+        text-align: center;
+        background: #F7FAFC;
+        background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    }
+
+    html {
+        height: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="col-sm-3 abled"><a href="/adminlogout">退出登陆</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <form>
+        <div class="ui-select-wrap" style="display: inline-block;width: 150px;">
+            <select class="form-control" name="name">
+                <option value="admin">管理员</option>
+                <option value="worker1">员工1</option>
+                <option value="worker2">员工2</option>
+                <option value="worker3">员工3</option>
+                <option value="worker4">员工4</option>
+            </select>
+        </div>
+        <a class="btn btn-primary" style="margin-left: 50px;margin-top: -3px;" id="checkButton">请求数据</a>
+    </form>
+    <table class="table table-striped" style="margin-top:50px">
+        <thead>
+            <tr>
+                <td class="info">理赔单号</td>
+                <td class="info">医疗单号</td>
+                <td class="active">当前负责人</td>
+                <td class="success">员工1</td>
+                <td class="success">员工2</td>
+                <td class="success">员工3</td>
+                <td class="success">员工4</td>
+            </tr>
+        </thead>
+        <tbody id="workerList">
+        </tbody>
+    </table>
+</body>
+
+</html>

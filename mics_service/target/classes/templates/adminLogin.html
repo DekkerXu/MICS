@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>员工登陆</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/login.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <!--    <script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script> -->
+    <style type="text/css">
+    body {
+        text-align: center;
+        background: #F7FAFC;
+        overflow: auto;
+        background:  #50a3a2 ;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="col-sm-3 abled"><a href="/index">主页</a></li>
+                        <li role="presentation" class="col-sm-3 abled"><a href="/buy">保险</a></li>
+                        <li role="presentation" class="col-sm-3 abled"><a href="#">个人主页</a>
+                        </li>
+                        <li role="presentation" class="col-sm-3 abled"><a href="/login">登陆/登出</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="position: absolute; margin: 0 auto; height: 100%; width: 100%">
+        <div class="container">
+            <h1>欢迎登录</h1>
+            <form class="form" id="myForm" action="/addadminlogin" name="loginfrom" accept-charset="utf-8" method="post">
+                <input id="inputName" type="text" placeholder="用户名" name="username" />
+                <input id="inputPsd" type="password" placeholder="密码" name="password" />
+                <button type="submit" id="login-button">登录</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+
+</html>

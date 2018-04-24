@@ -1,0 +1,1063 @@
+@import url(https:fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+body {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute !important;
+}
+
+html {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #F7FAFC;
+}
+
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+blockquote,
+th,
+td,
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+dd {
+    line-height: 2rem !important;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+input {
+    border: 1px solid #ccc;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+.baojia-form-date-infor-input-area .pa_ui_dropselect_inner .pa_ui_dropselect_input_Container,
+.baojia-form-date-infor-input-area .pa_ui_dropselect_input_Container .pa_ui_dropselect_input {
+    width: 124px !important;
+}
+
+.baojia-form-people-infor-input-area .pa_ui_dropselect_inner .pa_ui_dropselect_input_Container,
+.baojia-form-date-infor-input-area .pa_ui_dropselect_input_Container .pa_ui_dropselect_input {
+    width: 106px !important;
+}
+
+.pa_ui_dropselect_box li.pa_ui_dropselect_item,
+.pa_ui_dropselect_box li.pa_ui_dropselect_item_select {
+    height: auto;
+}
+
+.baojia-form-date-infor-input-area .ui-select-wrap .pa_ui_dropselect {
+    width: 142px !important;
+}
+
+
+/*nab-bar*/
+
+.nav-pills>li+li {
+    margin-left: 0px !important;
+}
+
+.nav-pills>li>a {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/*contentArea*/
+
+.article-main {
+    padding: 30px 20px 40px;
+    background: #fff;
+}
+
+.main-wrapper {
+    width: 100%;
+    background: #fff;
+    padding-bottom: 200px;
+    height: 100%;
+}
+
+.main-area {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*left*/
+
+#data-picker {
+    padding-left: 0 !important;
+}
+
+.main-area-left {
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+.baojia-wrap {
+    border: 2px solid #e0dfdb;
+    position: relative;
+}
+
+.product-tit {
+    font-size: 14px;
+    color: #333;
+    line-height: 40px;
+    background: #f4f4f4;
+    overflow: hidden;
+    font-family: "宋体";
+    padding: 0 10px 0 20px;
+    font-weight: bold;
+}
+
+.fl {
+    float: left;
+}
+
+.product-tit-tips {
+    float: left;
+    color: #666;
+    font-size: 12px;
+    background: url(../images/icon.png) no-repeat 0 -252px;
+    padding-left: 25px;
+    line-height: 36px;
+    font-weight: normal;
+    margin-left: 85px;
+}
+
+.bb_s10_a3a7af {
+    border-bottom: 10px solid #a3a7af;
+    padding-bottom: 40px;
+}
+
+.dsn {
+    display: none;
+}
+
+.f_c_f63 {
+    color: #f63;
+}
+
+.article-main {
+    padding: 30px 20px 40px;
+    background: #fff;
+}
+
+.baojia-form-tit {
+    color: #333;
+    font-size: 18px;
+    border-left: 3px solid #f63;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 5px;
+    text-align: left;
+    font-family: "Microsoft Yahei";
+}
+
+.baojia-form-date-infor {
+    margin: 0;
+    font-size: 12px;
+    float: left;
+    display: inline;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+    margin: 0 0 0 25px;
+    border-bottom: 1px solid #d7dce4;
+    padding-bottom: 20px;
+}
+
+.pa_ui_element_normal li {
+    display: inline-block;
+    width: 100%;
+}
+
+.baojia-form-date-infor li {
+    padding: 8px 0;
+}
+
+.baojia-form-date-infor-label {
+    color: #333;
+    text-align: right;
+    width: 140px;
+    float: left;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: "宋体";
+}
+
+.baojia-form-date-infor-input-area {
+    float: left;
+    width: 142px;
+    height: 30px;
+}
+
+.baojia-form-date-infor-input-txt {
+    float: left;
+    margin-left: 10px;
+    width: 300px;
+    line-height: 15px;
+}
+
+.lh30 {
+    line-height: 30px;
+}
+
+.f_c_888 {
+    color: #888;
+}
+
+#ageWrap .ageType {
+    cursor: pointer;
+    color: #474747;
+    height: 30px;
+    width: 130px;
+    border: 1px #ccc solid;
+    background: none;
+    white-space: nowrap;
+    margin-right: 15px;
+    width: 130px;
+    float: left;
+}
+
+html .ageType_current {
+    color: #474747;
+    border: 0 none;
+    background: url(../images/icon_sp.png) no-repeat;
+    background-position: 0 -31px;
+    white-space: nowrap;
+    height: 30px;
+}
+
+.baojia-form-date-infor-input-area {
+    float: left;
+    width: 142px;
+    height: 30px;
+}
+
+.fl {
+    float: left;
+}
+
+.pa_ui_text,
+.ui_input {
+    border: 1px solid #ccc;
+    padding: 4px;
+    color: #333;
+    font: 12px/20px "Verdana", "Simsun";
+    vertical-align: middle;
+    float: left;
+}
+
+#hot-warpper {
+    clear: both;
+    text-align: left;
+    margin-left: 102px;
+}
+
+.work-level {
+    font-size: 12px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+#hot-warpper ul li {
+    float: left;
+    margin-right: 8px;
+    color: #999;
+    width: auto;
+}
+
+#hot-warpper ul li a {
+    color: #999;
+}
+
+
+/*table*/
+
+.mt10 {
+    margin-top: 10px;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+#baojia-package-tab {
+    width: 100%;
+}
+
+.baojia-package-tab thead th {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #c4c4c4;
+    background: #fff;
+    padding: 10px 0;
+}
+
+.baojia-package-tab tbody td.package-right-sel,
+.baojia-package-tab thead th.package-right-sel {
+    border-right: 1px solid #f63;
+}
+
+.baojia-package-tab thead th.package-selected {
+    border: 1px solid #f63;
+    background: #f63;
+    color: #fff;
+}
+
+.baojia-package-tab tbody tr.othre-tr th {
+    border-bottom: 1px solid #ddd;
+}
+
+.baojia-package-tab tbody th {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    background: #FFF;
+}
+
+.question-icon {
+    display: inline-block;
+    background: url(../images/icon.png) no-repeat 60px -170px;
+    height: 17px;
+    padding-right: 22px;
+    line-height: 17px;
+}
+
+.dsn,
+.dn,
+.dspn {
+    display: none;
+}
+
+.por,
+.posr {
+    position: relative;
+}
+
+.baojia-package-tab tbody td .f14 {
+    font-size: 14px;
+}
+
+.bzInfor-name {
+    cursor: pointer;
+}
+
+.f_c_666 {
+    color: #666;
+}
+
+
+/*.top-arrow {
+    width: 16px;
+    height: 8px;
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    background: url(../images/icon.png) no-repeat -105px -342px;
+    z-index: 10;
+    overflow: hidden;
+}*/
+
+
+/*.bzInfor-area {
+    position: absolute;
+    background: #fff9e7;
+    border: 1px solid #efc173;
+    padding: 15px;
+    z-index: 1;
+    left: 0;
+    top: 23px;
+    width: 265px;
+    color: #333;
+}*/
+
+
+/*.baojia-package-tab tbody td {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    border-right: 1px solid #ddd;
+    font-size: 12px;
+    color: #333;
+    background: #FFF;
+}*/
+
+.baojia-package-tab tbody td {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    border-right: 1px solid #ddd;
+    font-size: 12px;
+    color: #333;
+    background: #FFF;
+}
+
+#baojia-package-tab .ui-select-wrap {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*.ui-select-wrap .pa_ui_dropselect {
+    height: 32px;
+    line-height: 32px;
+}
+.pa_ui_dropselect {
+    width: 65px;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+}*/
+
+
+/*pa_ui_dropselect .pa_ui_dropselect_inner {
+    height: 28px;
+}
+.pa_ui_dropselect_inner {
+    border: 1px solid #ccc;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+}*/
+
+
+/*.pa_ui_dropselect_inner .pa_ui_dropselect_input_Container, .pa_ui_dropselect_input_Container .pa_ui_dropselect_input {
+    height: 26px;
+    line-height: 26px;
+}
+.pa_ui_dropselect_input_Container {
+    overflow: hidden;
+}
+.pa_ui_dropselect_input_Container, .pa_ui_dropselect_input {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    border: 0;
+    margin: 0;
+    text-indent: .5em;
+}*/
+
+.baojia-package-tab thead.last-thead th,
+.baojia-package-tab thead.last-thead td.bb0 {
+    border-bottom: 0 none;
+}
+
+.baojia-package-tab thead.last-thead th.package-selected.bbc_efe3be,
+.baojia-package-tab thead.last-thead th.package-mouseover.bbc_efe3be {
+    border-bottom-color: #efe3be;
+}
+
+.baojia-package-tab thead.last-thead th.package-selected {
+    border: 1px solid #f63;
+    background: #f63;
+    color: #fff;
+}
+
+.baojia-package-tab thead.last-thead th.package-selected .f_c_f63 {
+    color: #fff;
+}
+
+.lh21 {
+    line-height: 21px;
+}
+
+.f24 {
+    font-size: 24px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.f_c_f63 {
+    color: #f63;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.f_c_f63 {
+    color: #f63;
+}
+
+.f34 {
+    font-size: 34px;
+}
+
+.tar {
+    text-align: right;
+}
+
+.orange-btn-w164 {
+    width: 164px;
+    text-align: center;
+    color: #fff;
+    background: #ff6634;
+    font-size: 20px;
+    height: 39px;
+    line-height: 39px;
+    display: block;
+    float: right;
+}
+
+.date_input {
+    color: #454545;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    background: url(../images/form-img.png) no-repeat -8px -32px;
+}
+
+.baojia-form-date-infor-input-area .datepicker-button {
+    display: none;
+}
+
+.datepicker-button {
+    display: inline-block;
+    background: url(/app_js/paui/1.1.1/build/themes/default/images/paui.gif) 0 -800px no-repeat;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.baojia-form-date-infor-input-txt {
+    float: left;
+    margin-left: 10px;
+    width: 300px;
+    line-height: 15px;
+}
+
+.lh30 {
+    line-height: 30px;
+}
+
+#ageWrap .ageType {
+    cursor: pointer;
+}
+
+html .ageType_current {
+    color: #474747;
+    border: 0 none;
+    background: url(../images/icon_sp.png) no-repeat;
+    background-position: 0 -31px;
+    white-space: nowrap;
+    height: 30px;
+}
+
+html .ageType {
+    color: #474747;
+    height: 30px;
+    width: 130px;
+    border: 1px #ccc solid;
+    background: none;
+    white-space: nowrap;
+    margin-right: 15px;
+    width: 130px;
+}
+
+.validator {
+    float: left;
+}
+
+#baojia-form .pa_ui_validator_onerror {
+    background: #fff2e9 url(http:www.4008000000.com/app_js/paui/1.1.1/build/themes/default/images/paui.gif) no-repeat 4px -596px;
+    color: #666;
+    border: 1px solid #f60;
+    padding: 0 5px 0 25px;
+    line-height: 20px;
+    height: 20px;
+}
+
+.baojia-form-date-infor-input-area {
+    float: left;
+    width: 142px;
+    height: 30px;
+}
+
+.w70 {
+    width: 70px;
+}
+
+.baojia-form-date-infor-input-area .ui-select-wrap .pa_ui_dropselect {
+    width: 142px !important;
+}
+
+.pa_ui_dropselect .pa_ui_dropselect_inner {
+    height: 28px;
+}
+
+.pa_ui_dropselect_inner {
+    border: 1px solid #ccc;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.pa_ui_dropselect_button {
+    float: left;
+    width: 16px;
+    height: 22px;
+    overflow: hidden;
+    line-height: 22px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.baojia-form-date-infor .pa_ui_dropselect_popup {
+    position: absolute;
+    z-index: 999;
+    background: white;
+    max-height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.pa_ui_dropselect_box {
+    border: 0;
+    padding: 2px;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+}
+
+.pa_ui_dropselect_box a.pa_ui_dropselect_item_link {
+    color: #000;
+    text-align: left;
+    padding: 4px;
+}
+
+.dsn {
+    display: none;
+}
+
+.validator {
+    float: left;
+}
+
+public.css:1 #baojia-form .pa_ui_validator_onerror {
+    background: #fff2e9 url(http:www.4008000000.com/app_js/paui/1.1.1/build/themes/default/images/paui.gif) no-repeat 4px -596px;
+    color: #666;
+    border: 1px solid #f60;
+    padding: 0 5px 0 25px;
+    line-height: 20px;
+    height: 20px;
+}
+
+.pa_ui_text,
+.ui_input {
+    border: 1px solid #ccc;
+    height: 20px;
+    padding: 4px;
+    color: #333;
+    font: 12px/20px "Verdana", "Simsun";
+    vertical-align: middle;
+    float: left;
+}
+
+.pa_ui_profession_wrap {
+    position: relative;
+    z-index: 888;
+}
+
+.pa_ui_profession_wrap .ui_input_keyworkcon {
+    width: 740px;
+    position: absolute;
+    top: 42px;
+    left: -95px;
+}
+
+.pa_ui_profession_wrap .ui_input_keyworkpoint {
+    position: absolute;
+    top: -10px;
+    left: 146px;
+    width: 18px;
+    height: 10px;
+    background: url(/pa18shopnst/common/other/profession/profession.png) no-repeat 0 0;
+}
+
+.pa_ui_profession_wrap .ui_input_keyworktitle {
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    padding: 9px 0;
+    border-bottom: 2px solid #b1b1b1;
+}
+
+.pa_ui_profession_wrap .ui_input_kwtleft {
+    float: left;
+    width: 30%;
+    line-height: 25px;
+}
+
+.pa_ui_profession_wrap .ui_input_kwtleft strong {
+    float: left;
+    padding-left: 12px;
+    color: #333;
+    font-size: 14px;
+}
+
+.pa_ui_profession_wrap .ui_input_kwtright {
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+
+element.style {}
+
+profession.css:1 .pa_ui_profession_wrap a.ui_input_kwdel {
+    width: 18px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    background: url(/pa18shopnst/common/other/profession/profession.png) no-repeat 0 -87px;
+}
+
+.pa_ui_profession_wrap .ui_input_kwlilscon {
+    background: #fff9e7;
+    height: 488px;
+    overflow: visible;
+}
+
+.pa_ui_profession_wrap .ui_input_kwlilstone {
+    float: left;
+    width: 32.4%;
+    height: 100%;
+    overflow-y: auto;
+    background: #fff;
+}
+
+.pa_ui_profession_wrap .ui_input_keyworklilst {
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.pa_ui_profession_wrap .ui_input_keyworklilst li {
+    float: left;
+    display: inline;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px dashed #d4d4d4;
+    color: #666;
+    cursor: pointer;
+}
+
+.pa_ui_profession_wrap .ui_input_keyworklilst li p {
+    position: relative;
+    padding: 6px 15px 6px 12px;
+    line-height: 27px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.pa_ui_profession_wrap .ui_input_kwlilsttwo {
+    float: left;
+    width: 33.8%;
+    height: 100%;
+    overflow-y: auto;
+    background: #fff;
+}
+
+.pa_ui_profession_wrap .ui_input_keyworklilst li.current {
+    color: #f63;
+    background: #fff9e7;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.pa_ui_profession_wrap .ui_input_kwlilstthree {
+    float: left;
+    width: 33.8%;
+    height: 100%;
+    overflow-y: auto;
+    background: #fff;
+}
+
+.pa_ui_profession_wrap .ui_input_kwlilstHot {
+    float: left;
+    width: 500px;
+    height: 490px;
+    overflow-y: visible;
+    background: #fff;
+}
+
+.pa_ui_profession_wrap .ui_input_kwlilstHot .ui_input_keyworklilst {
+    overflow: visible;
+}
+
+.pa_ui_profession_wrap .ui_input_kwlilstHot .ui_input_keyworklilst li {
+    position: relative;
+    margin: 10px 2px 5px;
+    float: left;
+    display: inline;
+    width: 120px;
+    padding: 0;
+    border-bottom: none;
+    color: #666;
+    cursor: pointer;
+}
+
+.pa_ui_profession_wrap a.ui_input_keyworkitem.limHotJob {
+    width: auto;
+    line-height: 30px;
+    padding: 0 5px;
+    display: block;
+    border: 1px solid #f63;
+    text-align: center;
+    color: #f63;
+    background: #fff;
+    text-decoration: none;
+}
+
+.pa_ui_profession_wrap a.ui_input_keyworkitem {
+    width: 80% !important;
+    padding: 5px !important;
+}
+
+.pa_ui_profession_wrap .ui_input_keyworklilst li .limDes {
+    position: absolute;
+    left: 50%;
+    top: -38px;
+    white-space: nowrap;
+    margin-left: -50%;
+    border: 1px solid #999;
+    padding: 0 8px;
+    line-height: 30px;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: none;
+}
+
+.pa_ui_profession_wrap .ui_input_kwlilstHot .ui_input_keyworklilst li.w160 {
+    width: 160px;
+    margin: 10px 3px 5px;
+}
+
+.pa_ui_profession_wrap a.ui_input_keyworkitem.limHotJob {
+    width: auto;
+    line-height: 30px;
+    padding: 0 5px;
+    display: block;
+    border: 1px solid #f63;
+    text-align: center;
+    color: #f63;
+    background: #fff;
+    text-decoration: none;
+}
+
+.pa_ui_profession_wrap .ui_input_keyworkcon {
+    width: 740px;
+    position: absolute;
+    top: 42px;
+    left: -95px;
+}
+
+.work-level {
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+#baojia-form .pa_ui_validator_onerror {
+    background: #fff2e9 url(http:www.4008000000.com/app_js/paui/1.1.1/build/themes/default/images/paui.gif) no-repeat 4px -596px;
+    color: #666;
+    border: 1px solid #f60;
+    padding: 0 5px 0 25px;
+    line-height: 20px;
+    height: 20px;
+}
+
+#hot-warpper {
+    clear: both;
+    text-align: left;
+    margin-left: 102px;
+}
+
+#hot-warpper ul li {
+    float: left;
+    margin-right: 8px;
+    color: #999;
+}
+
+#hot-warpper ul li a {
+    color: #999;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+.baojia-package-tab thead th {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #c4c4c4;
+    background: #fff;
+    padding: 10px 0;
+}
+
+.baojia-package-tab tbody td.package-right-sel,
+.baojia-package-tab thead th.package-right-sel {
+    border-right: 1px solid #f63;
+}
+
+.baojia-package-tab thead th.package-selected {
+    border: 1px solid #f63;
+    background: #f63;
+    color: #fff;
+}
+
+.baojia-package-tab tbody tr.othre-tr th {
+    border-bottom: 1px solid #ddd;
+}
+
+.baojia-package-tab tbody th {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    background: #FFF;
+}
+
+.question-icon {
+    display: inline-block;
+    background: url(../images/icon.png) no-repeat 60px -170px;
+    height: 17px;
+    padding-right: 22px;
+    line-height: 17px;
+}
+
+.baojia-package-tab tbody td.package-right-sel,
+.baojia-package-tab thead th.package-right-sel {
+    border-right: 1px solid #f63;
+}
+
+.baojia-package-tab tbody td .f14 {
+    font-size: 14px;
+}
+
+.top-arrow {
+    width: 16px;
+    height: 8px;
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    background: url(../images/icon.png) no-repeat -105px -342px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.bzInfor-area {
+    position: absolute;
+    background: #fff9e7;
+    border: 1px solid #efc173;
+    padding: 15px;
+    z-index: 1;
+    left: 0;
+    top: 23px;
+    width: 265px;
+    color: #333;
+}
+
+.bzInfor-area-tit {
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+}
+
+.bzInfor-area-txt {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#baojia-package-tab .ui-select-wrap {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.pa_ui_dropselect .pa_ui_dropselect_inner {
+    height: 28px;
+}
+
+.pa_ui_dropselect_inner .pa_ui_dropselect_input_Container,
+.pa_ui_dropselect_input_Container .pa_ui_dropselect_input {
+    height: 28px;
+    line-height: 28px;
+}
+
+.pa_ui_dropselect_box {
+    border: 0;
+    padding: 2px;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+}
